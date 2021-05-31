@@ -1,0 +1,37 @@
+doctype html
+head
+  title Osobni podatci
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+
+body
+  div
+    form(action='/admin/list_users' method='post')
+      fieldset
+        legend Uređivanje korisnika
+        label(for='username') Korisnicko ime:
+        input#username(type='text' name='username' value=vozac.korisnickoIme readonly)
+        br
+        label(for='firstname') Ime:
+        input#firstname(type='text' name='firstname' value=vozac.imeVozac)
+        br
+        label(for='lastname') Prezime:
+        input#lastname(type='text' name='lastname' value=vozac.prezimeVozac)
+        br
+        label(for='oib') OIB:
+        input#oib(type='text' name='oib' value=vozac.OIBkorisnik)
+        br
+        label(for='email') Email:
+        input#email(type='text' name='email' value=vozac.emailKorisnik)
+        br
+        label(for='kartica') Broj kreditne kartice:
+        input#kartica(type='text' name='kartica' value=vozac.brojKredKartice)
+        br
+        label(for='lozinka') Lozinka:
+        input#lozinka(type='password' name='lozinka' value=vozac.lozinkaKorisnik)
+        br
+        br
+        input(type='submit')
+        input(type='reset')
+
+

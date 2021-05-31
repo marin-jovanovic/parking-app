@@ -1,0 +1,421 @@
+doctype html
+//
+  
+  NAPRAVLJENO na karti prikazati korisnikovu lokaciju
+  NAPRAVLJENO izracunati di su najblizi parkinzi
+  
+  TODO kad korisnik klikne na mapu trebaju mu se na desnoj strani pokazat info o tom mjestu
+  
+  KAD SE PREBACUJE U PUG
+  dodat js skripte iz ./scripts/user i ./scripst/global/tab_...
+
+head
+  title Parkiraj Me
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  base(href='/')
+
+  link(rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css")
+  link(rel='stylesheet', type='text/css', href='./styles/main_site_user/main_site_user.css')
+  script.
+    console.log("UNUTAR SCRIPTA")
+    async function ukloniVozilo(registracija) {
+      console.log("REGISTRACIJA JE " + registracija);
+          response = await fetch('/user/uklonivozilo/' + registracija)
+          if( !response.ok )
+              alert("Error")
+            else
+              window.location.href = window.location.href
+    }
+    async function ukloniRezervaciju(rezervacija) {
+      console.log("REGISTRACIJA JE " + rezervacija);
+          response = await fetch('/user/uklonirezervaciju/' + rezervacija)
+          if( !response.ok )
+              alert("Error")
+            else
+              location.reload()
+    }
+
+main.center(role='main')
+  .center__title
+    h1 Parkiraj Me
+    //- input(type='button' onclick='tester();' value='test')
+    .name_placeHolder#name_ph
+      h1= user.korisnickoIme
+  
+  .center__container
+    .center__maps
+      h3 Prona&scaron;li smo mjesto za tebe!
+      // The div element for the map
+      #map
+      script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDzm5OOeVsAHmmVfHqPtlgz6XjicHRqWlE&callback=initMap&libraries=&v=weekly' defer='')
+
+    .center__menu
+
+        .center__menu__cell
+          input.center__menu__button(type='button' id = 0 value='OSOBNI PODATCI' onclick='personalDataToggle();')
+          if err !== undefined
+            p= err
+          if errors1 !== undefined
+            ul
+              each val in errors1
+                if val.email !== undefined
+                  li= val.email
+                if val.password1 !== undefined
+                  li= val.password1
+                if val.oib !== undefined
+                  li= val.oib
+          form#formPersonalData(name='formPersonalData' action='/user/vozacpodatci' method='post')
+            table.center__menu__table(border='1' cellspacing='5' cellpadding='5' align='center' width='100%')
+              tr
+                td
+                  | OIB
+                  br
+                  input#oib(type='text' name='oib' value=user.OIBkorisnik required)
+              tr
+                td
+                  | ime
+                  br
+                  input#firstname(type='text' name='name' value=user.imeVozac size='32' required)
+              tr
+                td
+                  | prezime
+                  br
+                  input#lastname(type='text' name='surname' value=user.prezimeVozac size='32' required)
+              tr
+                td
+                  | adresa e-po&scaron;te
+                  br
+                  input#email(type='text' name='email' value=user.emailKorisnik size='32' required)
+              tr
+                td
+                  | broj kreditne kartice
+                  br
+                  input(type='text' name='kredkartica' value=user.brojKredKartice size='32' required)
+              tr
+                td
+                  | nova lozinka
+                  br
+                  input#new_password_1(type='password' name='password1' value='' size='32' )
+                  br
+                  br
+                  | potvrda nove lozinke
+                  br
+                  input#new_password_2(type='password' name='password2' value='' size='32' )
+              tr
+                td
+                  input.center__menu__button(type='submit' id = 4)
+
+        .center__menu__cell
+          input.center__menu__button(type='button' id = "addCar" value='DODAJ AUTO' onclick='addCarToggle();')
+          if errors2 !== undefined
+            ul
+              each val in errors2
+                li= val.noviAuto
+          if careerr !== undefined
+            p="ovo vozilo već postoji!"
+          form#formAddCar(name='addCar' action = 'user/dodajAuto' method='post')
+            .container
+              //- input.add(type='button' value='zelim dodati jos auta')
+              br
+              #placeholder_0.element
+              br
+
+              #div_1.element
+                input(type="text", id="addCarInputField" ,name="noviAuto", placeholder='upisi registraciju' required)
+                span   
+                //input#remove_1.remove(type="button", value='obrisi')
+
+            br
+            input.save__button(type='submit', id="addCarButton" , value='spremi nove aute')
+
+        .center__menu__cell
+          input.center__menu__button(type='button' value='PREGLEDAJ AUTE' onclick='showCarsToggle();')
+          
+          form#formShowCars(name='showCars' action='/showCars' method='post')
+            table.center__login__table()
+              if vozila !== undefined
+                each val in vozila
+                  tr
+                    td= val.registracija
+                      input(type='button' value='obrisi' onClick='ukloniVozilo(\'' + val.registracija + '\');')
+
+        //- .center__menu__cell
+        //-   input.center__menu__button(type='button' value='PREDLOŽI PARKING MJESTO' onclick='showNearestParkingToggle();')
+          
+        //-   form#formShowNearestParking(name='formShowNearestParking')
+        //-     table.center__login__table()
+
+        .center__menu__cell
+          input.center__menu__button(type='button' value='NAPRAVI REZERVACIJU' onclick='formCheckoutToggle();')
+          
+          if errmsg !== undefined
+            p= errmsg
+          form#formCheckout(name='formCheckout' action = 'user/napravirezervaciju' method='post')
+
+            //- input.add(type='button' value='postavi na najblizu lokaciju' onclick='set_to_nearest();')
+
+
+            div#placeholder_1
+         
+            div#placeholder_2
+         
+            //- div(style='display: inline-block')
+            label(for='iv') Izaberite vozilo:
+            span  
+            select#cars(name='cars')
+              each val in vozila
+                option(value=val.registracija)= val.registracija
+            br
+            hr
+            
+            label(for='start') Start:
+            br
+            input#start(type='text')
+            br
+            label(for='hr') hr:
+            input#starthr(type='text' name="starthr" size="2" required)
+            label(for='min') min:
+            input#startmin(type='text' name="startmin" size="2" required)
+            br
+            hr
+            
+            label(for='duration') Duration:
+            br
+            label(for='hr') hr:
+            input#durationhr(type='text' name="durationhr" size="2")
+            label(for='min') min:
+            input#durationmin(type='text' name="durationmin" size="2")
+            br
+            hr
+            
+            div#placeholder_3
+
+
+            label(for='ponavljajuce') ponavljajuce:
+            input#ponavljajuceCheckbox(type='checkbox' name="ponavljajuce"  size="2" )
+            input#ponavljajuceField(type='text' placeholder='brputa' name="brputa" size="2" )
+            br
+            hr
+
+            label(for='trajno') trajno:
+            input#trajnoCheckbox(type='checkbox' name="trajno" size="2" )
+            br
+            hr
+          
+            label(for='CVC') CSC/ CVD/ CVV/ CVC/ SPC:
+            br
+            input#CVCField(type='text' placeholder='upisite kod' name="CVC" size="2" required)
+            br
+            hr
+            br
+
+            input(type="submit" value="Submit")
+
+        .center__menu__cell
+          input.center__menu__button(type='button' value='PREGLEDAJ REZERVACIJE' onclick='formShowReservationsToggle();')
+          
+          form#formShowReservations(name='' action='' method='post')
+            table.center__login__table()
+              each val in rezervacije
+                if val.idgrupe !== 2
+                  p= "POCETAK: " + val.pocetakrezervacije.toLocaleString() + " KRAJ: " + val.krajrezervacije.toLocaleString()
+                else
+                  p= "POCETAK: " + val.pocetakrezervacije.toLocaleString() + " TRAJNA REZERVACIJA"
+                p= "LOKACIJA: " + val.adresalokacija + " " + val.idrezervacija
+                input(type='button' value='obrisi' onClick='ukloniRezervaciju(\'' + val.idrezervacija + '\');')
+                hr
+             
+        .center__menu__cell
+          form#logoutForm(name='logoutForm' action='/logout' method='get')
+              tr
+                td
+                  input.center__menu__button(value="LOGOUT" type='submit' id = 23 required) 
+       
+
+//- nav#footer
+//-   ul.navigation__list
+//-     li.navigation__list__elem
+//-       | informacije
+//-     li.navigation__list__elem
+//-       | pomo&cacute;
+//-     li.navigation__list__elem
+//-       | privatnost
+//-     li.navigation__list__elem
+//-       | uvjeti
+//-     li.navigation__list__elem
+//-       | jezik
+
+
+//- temp linkovi
+//- br
+//- a(href="/user/user_personal") osobni podatci
+//- br
+//- temp ostali linkovi
+
+
+script(src='./scripts/users/on_load_functions.js')
+script(src='./scripts/global/tab_name_changer.js')
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+script(src='./scripts/global/display_locations.js')
+
+script(src='./scripts/users/drop_down_activators.js')
+script(src='./scripts/users/html_writers.js')
+script(src="/static/pikaday/pikaday.js")
+script(src='./scripts/users/date_picker.js')
+
+
+
+//- kalendar
+
+//- doctype html
+//- head
+//-   style.
+//-     * {box-sizing: border-box;}
+//-     ul {list-style-type: none;}
+//-     body {font-family: Verdana, sans-serif;}
+//-     .month {
+//-     padding: 70px 25px;
+//-     width: 100%;
+//-     background: #1abc9c;
+//-     text-align: center;
+//-     }
+//-     .month ul {
+//-     margin: 0;
+//-     padding: 0;
+//-     }
+//-     .month ul li {
+//-     color: white;
+//-     font-size: 20px;
+//-     text-transform: uppercase;
+//-     letter-spacing: 3px;
+//-     }
+//-     .month .prev {
+//-     float: left;
+//-     padding-top: 10px;
+//-     }
+//-     .month .next {
+//-     float: right;
+//-     padding-top: 10px;
+//-     }
+//-     .weekdays {
+//-     margin: 0;
+//-     padding: 10px 0;
+//-     background-color: #ddd;
+//-     }
+//-     .weekdays li {
+//-     display: inline-block;
+//-     width: 13.6%;
+//-     color: #666;
+//-     text-align: center;
+//-     }
+//-     .days {
+//-     padding: 10px 0;
+//-     background: #eee;
+//-     margin: 0;
+//-     }
+//-     .days li {
+//-     list-style-type: none;
+//-     display: inline-block;
+//-     width: 13.6%;
+//-     text-align: center;
+//-     margin-bottom: 5px;
+//-     font-size:12px;
+//-     color: #777;
+//-     }
+//-     .days li .active {
+//-     padding: 5px;
+//-     background: #1abc9c;
+//-     color: white !important
+//-     }
+//-     .calendar {
+//-     width: 100%;
+//-     height: 100%;
+//-     }
+//-     /* Add media queries for smaller screens */
+//-     @media screen and (max-width:720px) {
+//-     .weekdays li, .days li {width: 13.1%;}
+//-     }
+//-     @media screen and (max-width: 420px) {
+//-     .weekdays li, .days li {width: 12.5%;}
+//-     .days li .active {padding: 2px;}
+//-     }
+//-     @media screen and (max-width: 290px) {
+//-     .weekdays li, .days li {width: 12.2%;}
+//-     }
+//- //
+//-   Siječanj
+//-   Veljača
+//-   Ožujak
+//-   Travanj
+//-   Svibanj
+//-   Lipanj
+//-   Srpanj
+//-   Kolovoz
+//-   Rujan
+//-   Listopad
+//-   Studeni
+//-   Prosinac
+//-   January - 31 days
+//-   February - 28 days in a common year and 29 days in leap years
+//-   March - 31 days
+//-   April - 30 days
+//-   May - 31 days
+//-   June - 30 days
+//-   July - 31 days
+//-   August - 31 days
+//-   September - 30 days
+//-   October - 31 days
+//-   November - 30 days
+//-   December - 31 days
+//- .calendar
+//-   .month
+//-     ul
+//-       li.prev &#x276E;
+//-       li.next &#x276F;
+//-       li
+//-         | August
+//-         br
+//-         span(style='font-size:18px') 2017
+//-   ul.weekdays
+//-     li Mo
+//-     li Tu
+//-     li We
+//-     li Th
+//-     li Fr
+//-     li Sa
+//-     li Su
+//-   ul.days
+//-     li
+//-       input.active(type='button' value='1')
+//-     li 2
+//-     li 3
+//-     li 4
+//-     li 5
+//-     li 6
+//-     li 7
+//-     li 8
+//-     li 9
+//-     li
+//-       span.active 10
+//-     li 11
+//-     li 12
+//-     li 13
+//-     li 14
+//-     li 15
+//-     li 16
+//-     li 17
+//-     li 18
+//-     li 19
+//-     li 20
+//-     li 21
+//-     li 22
+//-     li 23
+//-     li 24
+//-     li 25
+//-     li 26
+//-     li 27
+//-     li 28
+//-     li 29
+//-     li 30
+//-     li 31

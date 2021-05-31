@@ -1,0 +1,31 @@
+doctype html
+
+head
+    title NAPLATA
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    base(href='/')
+
+    link(rel='stylesheet', type='text/css', href='./styles/admin/admin.css')
+
+body
+    h1(style='text-align: center') NAPLATA REZERVACIJE
+    br
+    hr
+    br
+    if err === undefined && trajno !== true
+        p(style='text-align: center')= "NAPLATA USPJESNA"
+    else if trajno === true
+        p(style='text-align: center')= "USPJESNO STE NAPRAVILI TRAJNU REZERVACIJU,"
+        p(style='text-align: center')= "ONA ĆE VAM SE NAPLAĆIVATI KRAJEM SVAKOG"
+        p(style='text-align: center')= "MJESECA UKOLIKO JE U MEĐUVREMENU NE OTKAŽETE"
+    else
+        p(style='text-align: center;')= "NAPLATA NIJE USPJELA, POKUSAJTE PONOVO"
+    br
+    hr
+    br
+    form#natragForm(name='natragForm' action='/user/natrag' method='get')
+        input(value="NATRAG" type='submit') 
+
+
+

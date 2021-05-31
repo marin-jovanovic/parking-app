@@ -1,0 +1,4 @@
+-prikaz sustava aplikacije se sastoji od više uc dijagrama rdi preglednosti
+Dijagram "Cjelokupni pogled" je opći uc dijagram sa višom razinom apstrakcije
+Dijagrami: "Funkcionalnosti Tvrtke","Funkcionalnosti admina", "Funkcionalnosti korisnika"
+	  su detaljniji uc dijagrami sa nižom razinom apstrakcije

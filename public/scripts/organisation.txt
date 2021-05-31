@@ -1,0 +1,25 @@
+display_locations.js
+
+    const jelacic
+    const labels
+
+    var labelIndex
+    var userLocation
+    var Vmap
+
+    function initMap()
+    function addMarker(location, map)
+    function addInfoWindow(position, content)
+
+get_locations.js
+
+    function getLocations()
+
+closest_parking_driver.js
+	
+	var closestParking
+	var distanceToClosestParking
+
+	function getClosestParking()
+	function rad(x)
+	function calculateDistanceBetweenPoints(userLocation, locationLat, locationLng)

@@ -1,0 +1,49 @@
+\babel@toc {croatian}{}
+\addvspace {10\p@ }
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Odabir poslovnica tvrtke Kaufland, \url {https://www.kaufland.hr/usluge/poslovnica.html} }}{7}{figure.2.1}%
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Odabir poslovnica tvrtke Tommy, \url { https://tommy.hr/hr/prodajna-mjesta} }}{8}{figure.2.2}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Cjelokupni pogled}}{18}{figure.3.1}%
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Funkcionalnosti korisnika}}{19}{figure.3.2}%
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Funkcionalnosti tvrtke}}{20}{figure.3.3}%
+\contentsline {figure}{\numberline {3.4}{\ignorespaces Funkcionalnosti admina}}{21}{figure.3.4}%
+\contentsline {figure}{\numberline {3.5}{\ignorespaces Sekvencijski dijagram - Registracija}}{23}{figure.3.5}%
+\contentsline {figure}{\numberline {3.6}{\ignorespaces Sekvencijski dijagram - Brisanje aktivnih rezervacija}}{24}{figure.3.6}%
+\contentsline {figure}{\numberline {3.7}{\ignorespaces Sekvencijski dijagram - prijava parkirališne površine}}{25}{figure.3.7}%
+\contentsline {figure}{\numberline {3.8}{\ignorespaces Sekvencijski dijagram - brisanje vozača}}{26}{figure.3.8}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Dijagram arhitekture sustava}}{28}{figure.4.1}%
+\contentsline {figure}{\numberline {4.2}{\ignorespaces ER model}}{33}{figure.4.2}%
+\contentsline {figure}{\numberline {4.3}{\ignorespaces relacijska shema}}{34}{figure.4.3}%
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Dijagram razreda za modele}}{36}{figure.4.4}%
+\contentsline {figure}{\numberline {4.5}{\ignorespaces Dijagram razreda za pomoćne razrede}}{37}{figure.4.5}%
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Dijagram razreda za routere}}{38}{figure.4.6}%
+\contentsline {figure}{\numberline {4.7}{\ignorespaces Dijagrama stanja - razred vozač}}{39}{figure.4.7}%
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Dijagrama aktivnosti - rezervacija parkinga}}{41}{figure.4.8}%
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Dijagram komponenti}}{42}{figure.4.9}%
+\addvspace {10\p@ }
+\contentsline {figure}{\numberline {5.1}{\ignorespaces Prikaz testa dohvaćanja korisničkih podataka}}{45}{figure.5.1}%
+\contentsline {figure}{\numberline {5.2}{\ignorespaces Prikaz testa dohvaćanja lokacije preko id-a}}{46}{figure.5.2}%
+\contentsline {figure}{\numberline {5.3}{\ignorespaces Prikaz testa dohvaćanja lokacije preko koordinata}}{46}{figure.5.3}%
+\contentsline {figure}{\numberline {5.4}{\ignorespaces Prikaz testa dohvaćanja rezervacija}}{47}{figure.5.4}%
+\contentsline {figure}{\numberline {5.5}{\ignorespaces Prikaz testa dohvaćanje vozila}}{48}{figure.5.5}%
+\contentsline {figure}{\numberline {5.6}{\ignorespaces Prikaz prolaza svih testova}}{49}{figure.5.6}%
+\contentsline {figure}{\numberline {5.7}{\ignorespaces Prikaz testa u kojem se očekuje drugačija vrijednost od dobivene (označena razlika u odnosu na prijašnji test)}}{49}{figure.5.7}%
+\contentsline {figure}{\numberline {5.8}{\ignorespaces Prikaz neprolaženja svih testova}}{50}{figure.5.8}%
+\contentsline {figure}{\numberline {5.9}{\ignorespaces Prikaz enumeracije \textit {id}-eva}}{51}{figure.5.9}%
+\contentsline {figure}{\numberline {5.10}{\ignorespaces Prikaz varijabli i konstanti}}{52}{figure.5.10}%
+\contentsline {figure}{\numberline {5.11}{\ignorespaces Prikaz login drivera}}{53}{figure.5.11}%
+\contentsline {figure}{\numberline {5.12}{\ignorespaces Prikaz testa koji ne uspjeva se prijaviti u aplikaciji}}{54}{figure.5.12}%
+\contentsline {figure}{\numberline {5.13}{\ignorespaces Prikaz testa promjena imena korisnika}}{55}{figure.5.13}%
+\contentsline {figure}{\numberline {5.14}{\ignorespaces Prikaz testa dodavanja automobila}}{56}{figure.5.14}%
+\contentsline {figure}{\numberline {5.15}{\ignorespaces Prikaz testova za prijavu (korisnika i tvrtke)}}{56}{figure.5.15}%
+\contentsline {figure}{\numberline {5.16}{\ignorespaces Prikaz drivera za registraciju korisnika}}{57}{figure.5.16}%
+\contentsline {figure}{\numberline {5.17}{\ignorespaces Prikaz registracije korisnika s različitim registracijama automobila}}{58}{figure.5.17}%
+\contentsline {figure}{\numberline {5.18}{\ignorespaces Prikaz testa za registraciju tvrtke}}{59}{figure.5.18}%
+\contentsline {figure}{\numberline {5.19}{\ignorespaces Prikaz rezultata nakon provedenog ispitivanja}}{60}{figure.5.19}%
+\contentsline {figure}{\numberline {5.20}{\ignorespaces Prikaz primjera rezultata u slučaju da očekujemo rezultat drugačiji od dobivenog (provedeni test je prikazani)}}{60}{figure.5.20}%
+\contentsline {figure}{\numberline {5.21}{\ignorespaces Dijagram razmještaja}}{61}{figure.5.21}%
+\contentsline {figure}{\numberline {5.22}{\ignorespaces Upravljanje Heroku-om}}{62}{figure.5.22}%
+\contentsline {figure}{\numberline {5.23}{\ignorespaces Kreiranje baze podataka}}{63}{figure.5.23}%
+\addvspace {10\p@ }

@@ -1,0 +1,32 @@
+doctype html
+head
+  title Podatci tvrtke
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+
+body
+    div
+        form(action='/admin/list_companies' method='post')
+            fieldset
+                legend Uređivanje korisnika
+                label(for='username') Korisnicko ime tvrtke:
+                input#username(type='text' name='username' value=tvrtka.korisnickoIme readonly)
+                br
+                label(for='name') Ime tvrtke:
+                input#name(type='text' name='name' value=tvrtka.imeTvrtka)
+                br
+                label(for='oib') OIB:
+                input#oib(type='text' name='oib' value=tvrtka.OIBkorisnik)
+                br
+                label(for='email') Email:
+                input#email(type='text' name='email' value=tvrtka.emailKorisnik)
+                br
+                label(for='adresa') Adresa:
+                input#adresa(type='text' name='adresa' value=tvrtka.adresaTvrtka)
+                br
+                label(for='lozinka') Lozinka:
+                input#lozinka(type='password' name='lozinka' value=tvrtka.lozinkaKorisnik)
+                br
+                br
+                input(type='submit')
+                input(type='reset')

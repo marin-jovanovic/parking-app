@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<!--TODO
+gumb prijava i registracija iste velicine
+opcija tvrtke i korisnika-->
+
+<head>
+    <title>Parkiraj Me</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/home/home_center.css">
+    <link rel="stylesheet" href="./styles/home/home_footer.css">
+    <link rel="stylesheet" href="./styles/global/switch.css">
+</head>
+<main class="center" role="main">
+    <div class="center__title">
+        <h1>Parkiraj Me</h1>
+    </div>
+    <div class="center__container">
+        <div class="center__maps">
+            <h3>Prona&scaron;li smo mjesto za tebe!</h3>
+            <!-- The div element for the map-->
+            <div id="map"></div>
+            <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzm5OOeVsAHmmVfHqPtlgz6XjicHRqWlE&amp;callback=initMap&amp;libraries=&amp;v=weekly" defer=""></script>
+            <script src="./scripts/home/map_functions.js"></script>
+        </div>
+        <div class="center__login">
+            <div class="center__login__existingU">
+                <input class="center__menu__button" type="button" value="P R I J A V A" onclick="openFormLogin();">
+                <form id="loginForm" name="loginForm" action="/user" method="post">
+                    <table class="center__login__table">
+                        <tr>
+                            <td><input type="text" name="username" placeholder="Broj telefona, korisničko ime ili e-pošta" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="password" placeholder="Lozinka" required></td>
+                        </tr>
+                        <tr>
+                            <td><label><input class="switch" type="checkbox">                                            Zapamti me<span class="switch__designer"></span></label></td>
+                        </tr>
+                        <tr>
+                            <td><input class="center__menu__button--small" type="submit"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="center__login__newU">
+                <input class="center__menu__button" type="button" value="REGISTRIRAJ SE KAO KORISNIK" onclick="openFormRegisterU();">
+                <form id="registerFormU" name="registrationForm" action="/registeruser" method="post">
+                    <table class="center__login__table">
+                        <tr>
+                            <td><input type="text" name="username" placeholder="username" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="oib" placeholder="OIB" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="name" placeholder="Ime" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="surname" placeholder="Prezime" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="email" placeholder="Adresa e-pošte" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="automobil" placeholder="Registarska oznaka automobila" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="kredkartica" placeholder="Broj kreditne kartice" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="password1" placeholder="Lozinka" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="password2" placeholder="Ponovni upis lozinke" required></td>
+                        </tr>
+                        <tr>
+                            <td><input class="center__menu__button--small" type="submit" value="registracija"></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+            <div class="center__login__newC"><input class="center__menu__button" type="button" value="REGISTRIRAJ SE KAO TVRTKA" onclick="openFormRegisterC();">
+                <form id="registerFormC" name="registerForm" action="/registercompany" method="post">
+                    <table class="center__login__table">
+                        <tr>
+                            <td><input type="text" name="oib" placeholder="OIB tvrtke" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="name" placeholder="Ime tvrtke" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="address" placeholder="Adresa sjedišta" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="text" name="email" placeholder="Adresa e-pošte" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="password1" placeholder="Lozinka" required></td>
+                        </tr>
+                        <tr>
+                            <td><input type="password" name="password2" placeholder="Ponovni upis lozinke" required></td>
+                        </tr>
+                        <tr>
+                            <td><input class="center__menu__button--small" type="submit" required></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </div>
+</main>
+<nav id="footer">
+    <ul class="navigation__list">
+        <li class="navigation__list__elem">informacije</li>
+        <li class="navigation__list__elem">pomo&cacute;</li>
+        <li class="navigation__list__elem">privatnost</li>
+        <li class="navigation__list__elem">uvjeti</li>
+        <li class="navigation__list__elem">jezik</li>
+    </ul>
+</nav>
+<hr>
+<temp>linkovi</temp><br><a href="/user">user</a><br><a href="/admin">admin</a><br><a href="/company">company</a><br>
+<script src="./scripts/home/on_load_functions.js"></script>
+<script src="./scripts/global/tab_name_changer.js"></script>
+<script src="./scripts/home/drop_down_activators.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>

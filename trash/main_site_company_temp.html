@@ -1,0 +1,118 @@
+<!-- 
+    TODO
+    gumb prijava i registracija iste velicine
+    opcija tvrtke i korisnika
+ -->
+
+ <!DOCTYPE html>
+ <html lang="hr">
+     <head>
+ 
+         <title>Parkiraj Me</title>
+ 
+         <meta charset="utf-8">
+         <meta name="viewport" content="width=device-width, initial-scale=1">
+         <link rel="stylesheet" href="/IzvorniKod/public/styles/home/index_center.css">
+         <link rel="stylesheet" rhef="public/styles/global/switch.css">
+
+     </head>
+     <body>
+ 
+         <main class="center" role="main">
+         
+             <div class="center__title">
+                 <h1>Parkiraj Me</h1>
+             </div>
+ 
+             <div class="center__container">
+                 
+                 <div class="center__maps">
+ 
+                     <h3>Pronašli smo mjesto za tebe!</h3>
+                     
+                     <!--The div element for the map -->
+                     <div id="map"></div>
+ 
+                     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzm5OOeVsAHmmVfHqPtlgz6XjicHRqWlE&callback=initMap&libraries=&v=weekly" defer></script>
+                     <script>
+                         // Initialize and add the map
+                         function initMap() {
+                             // The location of Uluru
+                             const uluru = { lat: -25.344, lng: 131.036 };
+                             // The map, centered at Uluru
+                             const map = new google.maps.Map(document.getElementById("map"), {
+                                 zoom: 4,
+                                 center: uluru,
+                             });
+                             // The marker, positioned at Uluru
+                             const marker = new google.maps.Marker({
+                                 position: uluru,
+                                 map: map,
+                             });
+ 
+ 
+                             const uluru2 = { lat: 2, lng: 135 };
+ 
+                             // The map, centered at Uluru
+                             // const map = new google.maps.Map(document.getElementById("map"), {
+                             //     zoom: 4,
+                             //     center: uluru,
+                             // });
+                             // The marker, positioned at Uluru
+                             const marker2 = new google.maps.Marker({
+                                 position: uluru2,
+                                 map: map,
+                             });
+                         }
+ 
+                             
+                     </script>
+ 
+                 </div>
+ 
+                 <div class="center__login">
+ 
+                    test
+ 
+                 </div>
+ 
+             </div>
+ 
+         </main>
+           
+ 
+         <nav id="footer"> 
+             <ul class="navigation__list">
+                 <li class="navigation__list__elem">
+                     informacije
+                 </li>
+ 
+                 <li class="navigation__list__elem">
+                     pomoć
+                 </li>
+ 
+                 <li class="navigation__list__elem">
+                     privatnost
+                 </li>
+ 
+                 <li class="navigation__list__elem">
+                     uvjeti
+                 </li>
+ 
+                 <li class="navigation__list__elem">
+                     jezik
+                 </li>
+             </ul>
+         </nav>
+
+         <script src="./scripts/index/on_load_functions.js"></script>
+         <script src="./scripts/global/tab_name_changer.js"></script>
+         <script src="./scripts/index/drop_down_activators.js"></script>
+ 
+         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+ 
+     </body>
+ 
+ </html>
+ 
+ 

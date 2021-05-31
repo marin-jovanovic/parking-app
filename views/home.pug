@@ -1,0 +1,155 @@
+doctype html
+head
+  title Parkiraj Me
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  
+  link(rel='stylesheet' href='./styles/home/home_center.css')
+  link(rel='stylesheet' href='./styles/home/home_footer.css')
+  link(rel='stylesheet' href='./styles/global/switch.css')
+  //- link(rel='stylesheet' href='./styles/home/animation.css')
+
+
+main
+
+  section
+    .landing
+      .center(role='main')
+        .center__title
+          h1 Parkiraj Me
+
+    .center__container
+      .center__maps
+        h3 Prona&scaron;li smo mjesto za tebe!
+        // The div element for the map
+        #map
+        script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDzm5OOeVsAHmmVfHqPtlgz6XjicHRqWlE&callback=initMap&libraries=&v=weekly' defer='')
+        script(src='./scripts/global/display_locations.js')
+
+      .center__login
+
+        .center__err
+          if err !== undefined
+            .msgError Error: #{err}
+
+          if errors !== undefined
+            ul
+              each val in errors
+                if val.email !== undefined
+                  li= val.email
+                if val.username !== undefined
+                  li= val.username
+                if val.password1 !== undefined
+                  li= val.password1
+                if val.oib !== undefined
+                  li= val.oib
+                if val.automobil !== undefined
+                  li= val.automobil
+
+        .center__login__existingU
+          input.center__menu__button(type='button' id = 1 value='P R I J A V A' onclick='openFormLogin();')
+          form#loginForm(name='loginForm' action='/user' method='post')
+            //- table.center__login__table(border='1' cellspacing='5' cellpadding='5' align='center' width='100%')
+            table.center__login__table()
+              tr
+                td
+                  input(type='text' id = 2 name='username' placeholder='Korisničko ime ili e-mail' required)
+              tr
+                td
+                  input(type='password' id = 3 name='password' placeholder='Lozinka' required)
+              //- tr
+              //-   td
+              //-     label
+              //-       input.switch(type='checkbox')
+              //-       |                                             Zapamti me
+              //-       span.switch__designer
+              tr
+                td
+                  input.center__menu__button(type='submit' id = 4)
+
+        .center__login__newU
+          input.center__menu__button(type='button' id = 5 value='REGISTRIRAJ SE KAO VOZAČ' onclick='openFormRegisterU();')
+          form#registerFormU(name='registrationForm' action='/registeruser' method='post')
+            table.center__login__table()
+              tr
+                td
+                  input(type='text' name='username' id = 6 placeholder='username' required)
+              tr
+                td
+                  input(type='text' name='oib' id = 7 placeholder='OIB' required)
+              tr
+                td
+                  input(type='text' name='name' id = 8 placeholder='Ime' required)
+              tr
+                td
+                  input(type='text' name='surname' id = 9 placeholder='Prezime' required)
+              tr
+                td
+                  input(type='text' name='email' id = 10 placeholder='Adresa e-pošte' required)
+              tr
+                td
+                  input(type='text' name='automobil' id = 11 placeholder='Registarska oznaka automobila' required)
+              tr
+                td
+                  input(type='text' name='kredkartica' id = 12 placeholder='Broj kreditne kartice' required)
+              tr
+                td
+                  input(type='password' name='password1' id = 13 placeholder='Lozinka' required)
+              tr
+                td
+                  input(type='password' name='password2' id = 14 placeholder='Ponovni upis lozinke' required)
+              tr
+                td
+                  input.center__menu__button(type='submit' id = 15 value='registracija')
+
+        .center__login__newC
+          input.center__menu__button(type='button' id = 16 value='REGISTRIRAJ SE KAO TVRTKA' onclick='openFormRegisterC();')
+          form#registerFormC(name='registerForm' action='/registercompany' method='post')
+            table.center__login__table()
+
+              tr
+                td
+                  input(type='text' id = 17 name='oib' placeholder='OIB tvrtke' required)
+              tr
+                td
+                  input(type='text' id = 18 name='username' placeholder='Ime tvrtke' required)
+              tr
+                td
+                  input(type='text' id = 19 name='address' placeholder='Adresa sjedišta' required)
+              tr
+                td
+                  input(type='text' id = 20 name='email' placeholder='Adresa e-pošte' required)
+              tr
+                td
+                  input(type='password' id = 21 name='password1' placeholder='Lozinka' required)
+              tr
+                td
+                  input(type='password' id = 22 name='password2' placeholder='Ponovni upis lozinke' required)
+              tr
+                td
+                  input.center__menu__button(type='submit' id = 23 required)
+              
+    br
+    br
+
+    .text
+    .slider
+
+if errors === undefined
+
+  .intro
+    figure
+      img(src='./styles/home/logo.jpg' alt='Parkiraj Me!')
+      figcaption Parkiraj Me!
+
+  
+
+script(src='https://cdnjs.cloudflare.com/ajax/libs/gsap/3.5.1/gsap.min.js')
+
+script(src='./scripts/home/drop_down_activators.js')
+script(src='./scripts/home/on_load_functions.js')
+
+script(src='./scripts/global/tab_name_changer.js')
+
+//- za animaciju s logoom
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')

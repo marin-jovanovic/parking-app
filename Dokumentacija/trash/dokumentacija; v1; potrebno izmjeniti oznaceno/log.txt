@@ -1,0 +1,53 @@
+POPRAVITI SAMO ONO STO JE POD TODO
+NAKON POPRAVA NAPISATI STO JE S TIM NAPRAVLJENO (DA BI MOGLI POKAZAT STO SMO NAPRAVILI)
+
+8
+	obrisano
+
+20
+	obrisano
+
+	obrisano - treba promjenit nazive slika i stare slike prebacit u trash 
+
+		dodati astah fileove u dokumentacija/dijagrami
+
+24
+	obrisano
+
+25
+	TODO
+		popraviti
+		unos podataka treba stavit u for loop
+
+		dodati astah fileove u dokumentacija/dijagrami
+
+29
+	"omogucen iz javne mreze"
+	identicno u njihovom primjeru
+
+30
+	dodan Node.js, Express i Connect-pg-simple u koristenu tehnologiju
+
+	TODO
+		skica
+
+		"baza podataka sluzi za crude" 
+			ne znam sto s ovim ne valja
+
+36
+	TODO
+		klase -> razredi
+
+37
+	TODO
+		popraviti dijagram
+
+38
+	TODO 
+		poraviti dijagrame
+
+	TODO
+		dodat pug pod opis tehnologije
+		mislim da ovo ide pod 5.1
+
+

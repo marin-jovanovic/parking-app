@@ -1,0 +1,1 @@
+Na slici je prikazan dijagram komponenti aplikacije ParkirajMe. Na dijagramu je prikazan odnos između komponenata aplikacije napravljenih u okviru MVC arhitekture te njihov odnos s vanjskim komponentama aplikacije (baza podataka, Google maps i web preglednik) sa svim sučeljima potrebnim za komunikaciju između komponenata. 

@@ -1,0 +1,21 @@
+doctype html
+
+head
+    title DODAN PARKING
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    base(href='/')
+
+    link(rel='stylesheet', type='text/css', href='./styles/admin/admin.css')
+
+body
+    h1(style='text-align: center') DODAN PARKING
+    br
+    hr
+    br
+    p(style='text-align: center')= "USPJESNO STE DODALI PARKIRALIŠNU POVRŠINU"
+    br
+    hr
+    br
+    form#natragForm(name='natragForm' action='/company/natrag' method='get')
+        input(value="NATRAG" type='submit') 

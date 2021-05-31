@@ -1,0 +1,5 @@
+.env
+/.metadata/
+venv/
+.idea/
+node_modules/

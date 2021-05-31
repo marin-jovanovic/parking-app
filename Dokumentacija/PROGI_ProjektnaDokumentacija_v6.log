@@ -1,0 +1,2033 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.21 (MiKTeX 20.10) (preloaded format=pdflatex 2020.10.16)  14 JAN 2021 23:03
+entering extended mode
+**./PROGI_ProjektnaDokumentacija_v6.tex
+(PROGI_ProjektnaDokumentacija_v6.tex
+LaTeX2e <2020-10-01> patch level 1
+L3 programming layer <2020-10-05> xparse <2020-03-03>
+("C:\Program Files\MiKTeX\tex/latex/base\report.cls"
+Document Class: report 2020/04/10 v1.4m Standard LaTeX document class
+("C:\Program Files\MiKTeX\tex/latex/base\size12.clo"
+File: size12.clo 2020/04/10 v1.4m Standard LaTeX file (size option)
+)
+\c@part=\count175
+\c@chapter=\count176
+\c@section=\count177
+\c@subsection=\count178
+\c@subsubsection=\count179
+\c@paragraph=\count180
+\c@subparagraph=\count181
+\c@figure=\count182
+\c@table=\count183
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+)
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.sty"
+Package: babel 2020/10/06 3.50 The Babel package
+
+("C:\Program Files\MiKTeX\tex/generic/babel\babel.def"
+File: babel.def 2020/10/06 3.50 Babel common definitions
+\babel@savecnt=\count184
+\U@D=\dimen139
+\l@babelnohyphens=\language79
+
+("C:\Program Files\MiKTeX\tex/generic/babel\txtbabel.def")
+\bbl@readstream=\read2
+)
+\bbl@dirlevel=\count185
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX\tex/latex/arabi\bblopts.cfg"
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+("C:\Program Files\MiKTeX\tex/latex/babel-croatian\croatian.ldf"
+Language: croatian 2014/03/31 v1.3m Croatian support from the babel system
+))
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amssymb.sty"
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+("C:\Program Files\MiKTeX\tex/latex/amsfonts\amsfonts.sty"
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks15
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsmath.sty"
+Package: amsmath 2020/09/23 v2.17i AMS math features
+\@mathmargin=\skip49
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amstext.sty"
+Package: amstext 2000/06/29 v2.01 AMS text
+
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks16
+\ex@=\dimen140
+))
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen141
+)
+("C:\Program Files\MiKTeX\tex/latex/amsmath\amsopn.sty"
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count186
+LaTeX Info: Redefining \frac on input line 234.
+\uproot@=\count187
+\leftroot@=\count188
+LaTeX Info: Redefining \overline on input line 399.
+\classnum@=\count189
+\DOTSCASE@=\count190
+LaTeX Info: Redefining \ldots on input line 496.
+LaTeX Info: Redefining \dots on input line 499.
+LaTeX Info: Redefining \cdots on input line 620.
+\Mathstrutbox@=\box47
+\strutbox@=\box48
+\big@size=\dimen142
+LaTeX Font Info:    Redeclaring font encoding OML on input line 743.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 744.
+\macc@depth=\count191
+\c@MaxMatrixCols=\count192
+\dotsspace@=\muskip16
+\c@parentequation=\count193
+\dspbrk@lvl=\count194
+\tag@help=\toks17
+\row@=\count195
+\column@=\count196
+\maxfields@=\count197
+\andhelp@=\toks18
+\eqnshift@=\dimen143
+\alignsep@=\dimen144
+\tagshift@=\dimen145
+\tagwidth@=\dimen146
+\totwidth@=\dimen147
+\lineht@=\dimen148
+\@envbody=\toks19
+\multlinegap=\skip50
+\multlinetaggap=\skip51
+\mathdisplay@stack=\toks20
+LaTeX Info: Redefining \[ on input line 2923.
+LaTeX Info: Redefining \] on input line 2924.
+)
+("C:\Program Files\MiKTeX\tex/latex/txfonts\txfonts.sty"
+Package: txfonts 2008/01/22 v3.2.1
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/m/n on input line 21.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/m/n --> OT1/txr/bx/n on input line 22.
+\symitalic=\mathgroup6
+LaTeX Font Info:    Overwriting symbol font `italic' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 26.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/txr/bx/n on input line 29.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/txr/m/it on input line 30.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/m/it --> OT1/txr/bx/it on input line 31.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/txss/m/n on input line 40.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/m/n --> OT1/txss/b/n on input line 41.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/txtt/m/n on input line 50.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/m/n --> OT1/txtt/b/n on input line 51.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/txmi/m/it on input line 58.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/m/it --> OML/txmi/bx/it on input line 59.
+\symlettersA=\mathgroup7
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/m/it --> U/txmia/bx/it on input line 67.
+LaTeX Font Info:    Redeclaring math alphabet \mathfrak on input line 70.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/txsy/m/n on input line 77.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/m/n --> OMS/txsy/bx/n on input line 78.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/msa/m/n --> U/txsya/m/n on input line 93.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/m/n --> U/txsya/bx/n on input line 94.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/msb/m/n --> U/txsyb/m/n on input line 102.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/m/n --> U/txsyb/bx/n on input line 103.
+\symsymbolsC=\mathgroup8
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/m/n --> U/txsyc/bx/n on input line 113.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/txex/m/n on input line 120.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/m/n --> OMX/txex/bx/n on input line 121.
+\symlargesymbolsA=\mathgroup9
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/m/n --> U/txexa/bx/n on input line 129.
+LaTeX Font Info:    Redeclaring math symbol \mathsterling on input line 164.
+LaTeX Info: Redefining \not on input line 1043.
+)
+("C:\Program Files\MiKTeX\tex/generic/mathdots\mathdots.sty"
+Package: mathdots 2014/06/11 v0.9 Improve and add various macros for dots in ma
+th.
+\MDo@unit=\dimen149
+\MDo@dotsbox=\box49
+\MDoprekern=\muskip17
+\MDopostkern=\muskip18
+\MDodotkern=\muskip19
+)
+("C:\Program Files\MiKTeX\tex/latex/titlesec\titlesec.sty"
+Package: titlesec 2019/10/16 v2.13 Sectioning titles
+\ttl@box=\box50
+\beforetitleunit=\skip52
+\aftertitleunit=\skip53
+\ttl@plus=\dimen150
+\ttl@minus=\dimen151
+\ttl@toksa=\toks21
+\titlewidth=\dimen152
+\titlewidthlast=\dimen153
+\titlewidthfirst=\dimen154
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\array.sty"
+Package: array 2019/08/31 v2.4l Tabular extension package (FMi)
+\col@sep=\dimen155
+\ar@mcellbox=\box51
+\extrarowheight=\dimen156
+\NC@list=\toks22
+\extratabsurround=\skip54
+\backup@length=\skip55
+\ar@cellbox=\box52
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\tabularx.sty"
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen157
+\TX@old@table=\dimen158
+\TX@old@col=\dimen159
+\TX@target=\dimen160
+\TX@delta=\dimen161
+\TX@cols=\count198
+\TX@ftn=\toks23
+)
+("C:\Program Files\MiKTeX\tex/latex/lastpage\lastpage.sty"
+Package: lastpage 2015/03/29 v1.2m Refers to last page's name (HMM; JPG)
+)
+("C:\Program Files\MiKTeX\tex/latex/etoolbox\etoolbox.sty"
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count199
+)
+("C:\Program Files\MiKTeX\tex/latex/tools\longtable.sty"
+Package: longtable 2020/01/07 v4.13 Multi-page Table package (DPC)
+\LTleft=\skip56
+\LTright=\skip57
+\LTpre=\skip58
+\LTpost=\skip59
+\LTchunksize=\count266
+\LTcapwidth=\dimen162
+\LT@head=\box53
+\LT@firsthead=\box54
+\LT@foot=\box55
+\LT@lastfoot=\box56
+\LT@cols=\count267
+\LT@rows=\count268
+\c@LT@tables=\count269
+\c@LT@chunks=\count270
+\LT@p@ftn=\toks24
+)
+("C:\Program Files\MiKTeX\tex/latex/tabu\tabu.sty"
+Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
+
+("C:\Program Files\MiKTeX\tex/latex/varwidth\varwidth.sty"
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box57
+\sift@deathcycles=\count271
+\@vwid@loff=\dimen163
+\@vwid@roff=\dimen164
+)
+\c@taburow=\count272
+\tabu@nbcols=\count273
+\tabu@cnt=\count274
+\tabu@Xcol=\count275
+\tabu@alloc=\count276
+\tabu@nested=\count277
+\tabu@target=\dimen165
+\tabu@spreadtarget=\dimen166
+\tabu@naturalX=\dimen167
+\tabucolX=\dimen168
+\tabu@Xsum=\dimen169
+\extrarowdepth=\dimen170
+\abovetabulinesep=\dimen171
+\belowtabulinesep=\dimen172
+\tabustrutrule=\dimen173
+\tabu@thebody=\toks25
+\tabu@footnotes=\toks26
+\tabu@box=\box58
+\tabu@arstrutbox=\box59
+\tabu@hleads=\box60
+\tabu@vleads=\box61
+\tabu@cellskip=\skip60
+)
+("C:\Program Files\MiKTeX\tex/latex/xcolor\xcolor.sty"
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\color.cfg"
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+("C:\Program Files\MiKTeX\tex/latex/graphics-def\pdftex.def"
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+("C:\Program Files\MiKTeX\tex/latex/colortbl\colortbl.sty"
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks27
+\minrowclearance=\skip61
+)
+("C:\Program Files\MiKTeX\tex/latex/adjustbox\adjustbox.sty"
+Package: adjustbox 2020/08/19 v1.3 Adjusting TeX boxes (trim, clip, ...)
+
+("C:\Program Files\MiKTeX\tex/latex/xkeyval\xkeyval.sty"
+Package: xkeyval 2014/12/03 v2.7a package option processing (HA)
+
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkeyval.tex"
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\xkvutils.tex"
+\XKV@toks=\toks28
+\XKV@tempa@toks=\toks29
+
+("C:\Program Files\MiKTeX\tex/generic/xkeyval\keyval.tex"))
+\XKV@depth=\count278
+File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
+))
+("C:\Program Files\MiKTeX\tex/latex/adjustbox\adjcalc.sty"
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+("C:\Program Files\MiKTeX\tex/latex/adjustbox\trimclip.sty"
+Package: trimclip 2020/08/19 v1.2 Trim and clip general TeX material
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphicx.sty"
+Package: graphicx 2020/09/09 v1.2b Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\graphics.sty"
+Package: graphics 2020/08/30 v1.4c Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX\tex/latex/graphics\trig.sty"
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX\tex/latex/graphics-cfg\graphics.cfg"
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 105.
+)
+\Gin@req@height=\dimen174
+\Gin@req@width=\dimen175
+)
+("C:\Program Files\MiKTeX\tex/latex/collectbox\collectbox.sty"
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box62
+)
+\tc@llx=\dimen176
+\tc@lly=\dimen177
+\tc@urx=\dimen178
+\tc@ury=\dimen179
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+("C:\Program Files\MiKTeX\tex/latex/adjustbox\tc-pdftex.def"
+File: tc-pdftex.def 2019/01/04 v2.2 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen180
+\adjbox@Height=\dimen181
+\adjbox@Depth=\dimen182
+\adjbox@Totalheight=\dimen183
+\adjbox@pwidth=\dimen184
+\adjbox@pheight=\dimen185
+\adjbox@pdepth=\dimen186
+\adjbox@ptotalheight=\dimen187
+
+("C:\Program Files\MiKTeX\tex/latex/ifoddpage\ifoddpage.sty"
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count279
+))
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.sty"
+Package: geometry 2020/01/02 v5.9 Page Geometry
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\ifvtex.sty"
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+
+("C:\Program Files\MiKTeX\tex/generic/iftex\iftex.sty"
+Package: iftex 2020/03/06 v1.0d TeX engine tests
+))
+\Gm@cnth=\count280
+\Gm@cntv=\count281
+\c@Gm@tempcnt=\count282
+\Gm@bindingoffset=\dimen188
+\Gm@wd@mp=\dimen189
+\Gm@odd@mp=\dimen190
+\Gm@even@mp=\dimen191
+\Gm@layoutwidth=\dimen192
+\Gm@layoutheight=\dimen193
+\Gm@layouthoffset=\dimen194
+\Gm@layoutvoffset=\dimen195
+\Gm@dimlist=\toks30
+
+("C:\Program Files\MiKTeX\tex/latex/geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\kpfonts.sty"
+Package: kpfonts  2010/08/20 v3.31
+
+("C:\Program Files\MiKTeX\tex/latex/base\textcomp.sty"
+Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
+LaTeX Font Info:    Changing ? sub-encoding to TS1/0 on input line 75.
+)
+\c@mv@rm=\count283
+\c@mv@boldrm=\count284
+\c@mv@sf=\count285
+\c@mv@boldsf=\count286
+LaTeX Font Info:    Redeclaring symbol font `operators' on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/txr/m/n --> OT1/jkp/m/n on input line 354.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 355.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 357.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 358.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/m/n on input line 359.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkpss/b/n on input line 360.
+LaTeX Font Info:    Redeclaring math alphabet \mathrm on input line 364.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 365.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `rm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 366.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldrm'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 367.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `sf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/m/n on input line 368.
+LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `boldsf'
+(Font)                  OT1/jkp/m/n --> OT1/jkp/b/n on input line 369.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/txr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/cmr/bx/n --> OT1/jkp/b/n on input line 378.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 379.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `rm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 381.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldrm'
+(Font)                  OT1/jkp/b/n --> OT1/jkp/b/n on input line 382.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `sf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 383.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `boldsf'
+(Font)                  OT1/jkp/b/n --> OT1/jkpss/b/n on input line 384.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/txr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/txr/bx/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/cmr/m/it --> OT1/jkp/m/it on input line 390.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 391.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `rm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/m/it on input line 393.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldrm'
+(Font)                  OT1/jkp/m/it --> OT1/jkp/b/it on input line 394.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `sf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/m/it on input line 395.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `boldsf'
+(Font)                  OT1/jkp/m/it --> OT1/jkpss/b/it on input line 396.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/txss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/txss/b/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/cmss/m/n --> OT1/jkpss/m/n on input line 401.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 402.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `rm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 403.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldrm'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 404.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `sf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/m/n on input line 405.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `boldsf'
+(Font)                  OT1/jkpss/m/n --> OT1/jkpss/b/n on input line 406.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/txtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/txtt/b/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/cmtt/m/n --> OT1/jkptt/m/n on input line 410.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 411.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `rm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 412.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldrm'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 413.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `sf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/m/n on input line 414.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `boldsf'
+(Font)                  OT1/jkptt/m/n --> OT1/jkptt/b/n on input line 415.
+LaTeX Font Info:    Redeclaring symbol font `letters' on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/txmi/bx/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/txmi/m/it --> OML/jkp/m/it on input line 423.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 424.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `rm'
+(Font)                  OML/jkp/m/it --> OML/jkp/m/it on input line 426.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldrm'
+(Font)                  OML/jkp/m/it --> OML/jkp/bx/it on input line 427.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `sf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/m/it on input line 428.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `boldsf'
+(Font)                  OML/jkp/m/it --> OML/jkpss/bx/it on input line 429.
+LaTeX Font Info:    Redeclaring symbol font `lettersA' on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `normal'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/txmia/bx/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `rm'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldrm'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `sf'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldsf'
+(Font)                  U/txmia/m/it --> U/jkpmia/m/it on input line 438.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `bold'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 439.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `rm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/m/it on input line 441.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldrm'
+(Font)                  U/jkpmia/m/it --> U/jkpmia/bx/it on input line 442.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `sf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/m/it on input line 443.
+LaTeX Font Info:    Overwriting symbol font `lettersA' in version `boldsf'
+(Font)                  U/jkpmia/m/it --> U/jkpssmia/bx/it on input line 444.
+LaTeX Font Info:    Redeclaring symbol font `symbols' on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/txsy/bx/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/txsy/m/n --> OMS/jkp/m/n on input line 456.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 457.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `rm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 459.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldrm'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 460.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `sf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/m/n on input line 461.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `boldsf'
+(Font)                  OMS/jkp/m/n --> OMS/jkp/bx/n on input line 462.
+LaTeX Font Info:    Redeclaring symbol font `AMSa' on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `normal'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/txsya/bx/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/txsya/m/n --> U/jkpsya/m/n on input line 475.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `bold'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 476.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `rm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 477.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldrm'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 478.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `sf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/m/n on input line 479.
+LaTeX Font Info:    Overwriting symbol font `AMSa' in version `boldsf'
+(Font)                  U/jkpsya/m/n --> U/jkpsya/bx/n on input line 480.
+LaTeX Font Info:    Redeclaring symbol font `AMSb' on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `normal'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/txsyb/bx/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/txsyb/m/n --> U/jkpsyb/m/n on input line 528.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `bold'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 529.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `rm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/m/n on input line 530.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldrm'
+(Font)                  U/jkpsyb/m/n --> U/jkpsyb/bx/n on input line 531.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `sf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/m/n on input line 532.
+LaTeX Font Info:    Overwriting symbol font `AMSb' in version `boldsf'
+(Font)                  U/jkpsyb/m/n --> U/jkpsssyb/bx/n on input line 533.
+LaTeX Font Info:    Redeclaring symbol font `symbolsC' on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `normal'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/txsyc/bx/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `rm'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldrm'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `sf'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldsf'
+(Font)                  U/txsyc/m/n --> U/jkpsyc/m/n on input line 548.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `bold'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 549.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `rm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 551.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldrm'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 552.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `sf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/m/n on input line 553.
+LaTeX Font Info:    Overwriting symbol font `symbolsC' in version `boldsf'
+(Font)                  U/jkpsyc/m/n --> U/jkpsyc/bx/n on input line 554.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `bold'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 583.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `rm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 585.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldrm'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 586.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `sf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/m/n on input line 587.
+LaTeX Font Info:    Overwriting math alphabet `\mathscr' in version `boldsf'
+(Font)                  U/jkpsyd/m/n --> U/jkpsyd/bx/n on input line 588.
+LaTeX Font Info:    Redeclaring symbol font `largesymbols' on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/txex/bx/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/txex/m/n --> OMX/jkp/m/n on input line 598.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 599.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `rm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/m/n on input line 601.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldrm'
+(Font)                  OMX/jkp/m/n --> OMX/jkp/bx/n on input line 602.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `sf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/m/n on input line 603.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `boldsf'
+(Font)                  OMX/jkp/m/n --> OMX/jkpss/bx/n on input line 604.
+LaTeX Font Info:    Redeclaring symbol font `largesymbolsA' on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `normal'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/txexa/bx/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
+(Font)                  U/txexa/m/n --> U/jkpexa/m/n on input line 614.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `bold'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 615.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `rm'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 617.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldrm'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 618.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `sf'
+(Font)                  U/jkpexa/m/n --> U/jkpexa/m/n on input line 619.
+LaTeX Font Info:    Overwriting symbol font `largesymbolsA' in version `boldsf'
+
+(Font)                  U/jkpexa/m/n --> U/jkpexa/bx/n on input line 620.
+LaTeX Font Info:    Redeclaring math symbol \n@tch@r on input line 1578.
+LaTeX Info: Redefining \not on input line 1580.
+)
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hyperref.sty"
+Package: hyperref 2020-05-15 v7.00e Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty"
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/pdftexcmds\pdftexcmds.sty"
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+("C:\Program Files\MiKTeX\tex/generic/infwarerr\infwarerr.sty"
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+("C:\Program Files\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.sty"
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/kvdefinekeys\kvdefinekeys.sty"
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/pdfescape\pdfescape.sty"
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/hycolor\hycolor.sty"
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/letltxmacro\letltxmacro.sty"
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/auxhook\auxhook.sty"
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+("C:\Program Files\MiKTeX\tex/latex/kvoptions\kvoptions.sty"
+Package: kvoptions 2019/11/29 v3.13 Key value format for package options (HO)
+)
+\@linkdim=\dimen196
+\Hy@linkcounter=\count287
+\Hy@pagecounter=\count288
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\pd1enc.def"
+File: pd1enc.def 2020-05-15 v7.00e Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+("C:\Program Files\MiKTeX\tex/generic/intcalc\intcalc.sty"
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/etexcmds\etexcmds.sty"
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count289
+Package hyperref Info: Hyper figures OFF on input line 4464.
+Package hyperref Info: Link nesting OFF on input line 4469.
+Package hyperref Info: Hyper index ON on input line 4472.
+Package hyperref Info: Plain pages OFF on input line 4479.
+Package hyperref Info: Backreferencing OFF on input line 4484.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4717.
+\c@Hy@tempcnt=\count290
+
+("C:\Program Files\MiKTeX\tex/latex/url\url.sty"
+\Urlmuskip=\muskip20
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5076.
+\XeTeXLinkMargin=\dimen197
+
+("C:\Program Files\MiKTeX\tex/generic/bitset\bitset.sty"
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+("C:\Program Files\MiKTeX\tex/generic/bigintcalc\bigintcalc.sty"
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count291
+\Field@Width=\dimen198
+\Fld@charsize=\dimen199
+Package hyperref Info: Hyper figures OFF on input line 6347.
+Package hyperref Info: Link nesting OFF on input line 6352.
+Package hyperref Info: Hyper index ON on input line 6355.
+Package hyperref Info: backreferencing OFF on input line 6362.
+Package hyperref Info: Link coloring OFF on input line 6367.
+Package hyperref Info: Link coloring with OCG OFF on input line 6372.
+Package hyperref Info: PDF/A mode OFF on input line 6377.
+LaTeX Info: Redefining \ref on input line 6417.
+LaTeX Info: Redefining \pageref on input line 6421.
+
+("C:\Program Files\MiKTeX\tex/latex/base\atbegshi-ltx.sty"
+Package: atbegshi-ltx 2020/08/17 v1.0a Emulation of the original atbegshi packa
+ge
+with kernel methods
+)
+\Hy@abspage=\count292
+\c@Item=\count293
+\c@Hfootnote=\count294
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+("C:\Program Files\MiKTeX\tex/latex/hyperref\hpdftex.def"
+File: hpdftex.def 2020-05-15 v7.00e Hyperref driver for pdfTeX
+
+("C:\Program Files\MiKTeX\tex/latex/base\atveryend-ltx.sty"
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atvery packag
+e
+with kernel methods
+)
+\Fld@listcount=\count295
+\c@bookmark@seq@number=\count296
+
+("C:\Program Files\MiKTeX\tex/latex/rerunfilecheck\rerunfilecheck.sty"
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files\MiKTeX\tex/generic/uniquecounter\uniquecounter.sty"
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip62
+)
+("C:\Program Files\MiKTeX\tex/latex/fancyhdr\fancyhdr.sty"
+Package: fancyhdr 2019/01/31 v3.10 Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip63
+\f@nch@O@elh=\skip64
+\f@nch@O@erh=\skip65
+\f@nch@O@olh=\skip66
+\f@nch@O@orh=\skip67
+\f@nch@O@elf=\skip68
+\f@nch@O@erf=\skip69
+\f@nch@O@olf=\skip70
+\f@nch@O@orf=\skip71
+)
+("C:\Program Files\MiKTeX\tex/latex/float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count297
+\float@exts=\toks31
+\float@box=\box63
+\@float@everytoks=\toks32
+\@floatcapt=\box64
+)
+("C:\Program Files\MiKTeX\tex/latex/setspace\setspace.sty"
+Package: setspace 2011/12/19 v6.7a set line spacing
+)
+\@float@every@table=\toks33
+Package hyperref Info: Option `colorlinks' set `true' on input line 41.
+
+("C:\Program Files\MiKTeX\tex/latex/listings\listings.sty"
+\lst@mode=\count298
+\lst@gtempboxa=\box65
+\lst@token=\toks34
+\lst@length=\count299
+\lst@currlwidth=\dimen256
+\lst@column=\count300
+\lst@pos=\count301
+\lst@lostspace=\dimen257
+\lst@width=\dimen258
+\lst@newlines=\count302
+\lst@lineno=\count303
+\lst@maxwidth=\dimen259
+
+("C:\Program Files\MiKTeX\tex/latex/listings\lstmisc.sty"
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count304
+\lst@skipnumbers=\count305
+\lst@framebox=\box66
+)
+("C:\Program Files\MiKTeX\tex/latex/listings\listings.cfg"
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+LaTeX Font Info:    Trying to load font information for OT1+jkp on input line 1
+23.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ot1jkp.fd"
+File: ot1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for OT1/jkp.
+)
+("C:\Program Files\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def"
+File: l3backend-pdftex.def 2020-09-24 L3 backend support: PDF output (pdfTeX)
+\l__kernel_color_stack_int=\count306
+\l__pdf_internal_box=\box67
+)
+(PROGI_ProjektnaDokumentacija_v6.aux (Dnevnik_promjena_dokumentacije.aux)
+(Opis_projektnog_zadatka.aux
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+) (Specifikacija_programske_potpore.aux
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+) (Arhitektura.aux
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+) (Implementacija.aux
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+
+LaTeX Warning: Label `fig:promjene' multiply defined.
+
+) (Zakljucak.aux) (Literatura.aux) (Dodatak.aux))
+\openout1 = `PROGI_ProjektnaDokumentacija_v6.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/jkp/m/it on input line 123.
+LaTeX Font Info:    Trying to load font information for OML+jkp on input line 1
+23.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\omljkp.fd"
+File: omljkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMS/jkp/m/n on input line 123.
+LaTeX Font Info:    Trying to load font information for OMS+jkp on input line 1
+23.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\omsjkp.fd"
+File: omsjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OMX/jkp/m/n on input line 123.
+LaTeX Font Info:    Trying to load font information for OMX+jkp on input line 1
+23.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\omxjkp.fd"
+File: omxjkp.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for U/jkpexa/m/n on input line 123.
+LaTeX Font Info:    Trying to load font information for U+jkpexa on input line 
+123.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ujkpexa.fd"
+File: ujkpexa.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
+LaTeX Font Info:    ... okay on input line 123.
+Package lastpage Info: Please have a look at the pageslts package at
+(lastpage)             https://www.ctan.org/pkg/pageslts
+(lastpage)             ! on input line 123.
+
+("C:\Program Files\MiKTeX\tex/context/base/mkii\supp-pdf.mkii"
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count307
+\scratchdimen=\dimen260
+\scratchbox=\box68
+\nofMPsegments=\count308
+\nofMParguments=\count309
+\everyMPshowfont=\toks35
+\MPscratchCnt=\count310
+\MPscratchDim=\dimen261
+\MPnumerator=\count311
+\makeMPintoPDFobject=\count312
+\everyMPtoPDFconversion=\toks36
+) ("C:\Program Files\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty"
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+)
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 435.6108pt, 89.62709pt)
+* v-part:(T,H,B)=(72.26999pt, 671.37021pt, 101.40665pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=435.6108pt
+* \textheight=671.37021pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=12.0pt
+* \footskip=30.0pt
+* \marginparwidth=44.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+Package hyperref Info: Link coloring ON on input line 123.
+("C:\Program Files\MiKTeX\tex/latex/hyperref\nameref.sty"
+Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX\tex/latex/refcount\refcount.sty"
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+("C:\Program Files\MiKTeX\tex/generic/gettitlestring\gettitlestring.sty"
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count313
+)
+LaTeX Info: Redefining \ref on input line 123.
+LaTeX Info: Redefining \pageref on input line 123.
+LaTeX Info: Redefining \nameref on input line 123.
+
+(PROGI_ProjektnaDokumentacija_v6.out) (PROGI_ProjektnaDokumentacija_v6.out)
+\@outlinefile=\write3
+\openout3 = `PROGI_ProjektnaDokumentacija_v6.out'.
+
+\c@lstlisting=\count314
+
+[1
+
+{C:/Users/PC/AppData/Local/MiKTeX/pdftex/config/pdftex.map}]
+(PROGI_ProjektnaDokumentacija_v6.toc
+LaTeX Font Info:    Trying to load font information for U+jkpsya on input line 
+5.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ujkpsya.fd"
+File: ujkpsya.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyb on input line 
+5.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ujkpsyb.fd"
+File: ujkpsyb.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for OT1+txr on input line 5
+.
+
+("C:\Program Files\MiKTeX\tex/latex/txfonts\ot1txr.fd"
+File: ot1txr.fd 2000/12/15 v3.1
+)
+LaTeX Font Info:    Trying to load font information for U+jkpmia on input line 
+5.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ujkpmia.fd"
+File: ujkpmia.fd 2006/08/15 v1.0
+)
+LaTeX Font Info:    Trying to load font information for U+jkpsyc on input line 
+5.
+
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ujkpsyc.fd"
+File: ujkpsyc.fd 2006/08/15 v1.0
+))
+\tf@toc=\write4
+\openout4 = `PROGI_ProjektnaDokumentacija_v6.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+Make it at least 14.49998pt.
+We now make it that large for the rest of the document.
+This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.159 	\include{Dnevnik_promjena_dokumentacije}
+                                                [1
+
+]
+\openout2 = `Dnevnik_promjena_dokumentacije.aux'.
+
+
+(Dnevnik_promjena_dokumentacije.tex
+Poglavlje 1.
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 13.10.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 16.10.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 17.10.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 19.10.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 23.10.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 24.10.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 24.10.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 31.10.2020|  
+ []
+
+
+Overfull \hbox (6.59265pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 10.11.2020.|  
+ []
+
+
+Overfull \hbox (6.59265pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 13.11.2020.|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 13.11.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 14.12.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 14.12.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 17.12.2020|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 11.01.2021|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 12.01.2021|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 13.01.2021|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 13.01.2021|  
+ []
+
+
+Overfull \hbox (3.47266pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 14.01.2021|  
+ []
+
+
+Overfull \hbox (6.59265pt too wide) in paragraph at lines 36--36
+[]\OT1/jkp/m/n/12 14.01.2021.|  
+ []
+
+[2
+
+
+]) [3]
+\openout2 = `Opis_projektnog_zadatka.aux'.
+
+ (Opis_projektnog_zadatka.tex
+Poglavlje 2.
+LaTeX Font Info:    Trying to load font information for TS1+jkp on input line 1
+8.
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ts1jkp.fd"
+File: ts1jkp.fd 2007/08/30 Fontinst v1.928 font definitions for TS1/jkp.
+) [4
+
+
+
+
+] [5] [6
+
+]
+<slike/gmaps_p1.png, id=169, 472.01344pt x 222.8325pt>
+File: slike/gmaps_p1.png Graphic file (type png)
+<use slike/gmaps_p1.png>
+Package pdftex.def Info: slike/gmaps_p1.png  used on input line 105.
+(pdftex.def)             Requested size: 472.01228pt x 222.83195pt.
+
+Overfull \hbox (36.40149pt too wide) in paragraph at lines 105--109
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+jkptt on input line
+ 109.
+("C:\Program Files\MiKTeX\tex/latex/kpfonts\ot1jkptt.fd"
+File: ot1jkptt.fd 2007/01/26 Fontinst v1.928 font definitions for OT1/jkptt.
+)
+<slike/slika_2.png, id=172, 472.76625pt x 408.02437pt>
+File: slike/slika_2.png Graphic file (type png)
+<use slike/slika_2.png>
+Package pdftex.def Info: slike/slika_2.png  used on input line 115.
+(pdftex.def)             Requested size: 472.76509pt x 408.02338pt.
+
+Overfull \hbox (37.1543pt too wide) in paragraph at lines 115--119
+ [][] 
+ []
+
+[7
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.122 
+       <./slike/gmaps_p1.png>] [8pdfTeX warning (ext4): destination with the sa
+me identifier (name{figure.2.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.124 		\eject
+               <./slike/slika_2.png>])
+\openout2 = `Specifikacija_programske_potpore.aux'.
+
+ (Specifikacija_programske_potpore.tex
+Poglavlje 3.
+[9
+
+
+
+
+] [10] [11] [12] [13] [14] [15] [16] [17]
+<dijagrami/cjelokupni_pogled.png, id=338, 1103.62312pt x 1023.825pt>
+File: dijagrami/cjelokupni_pogled.png Graphic file (type png)
+<use dijagrami/cjelokupni_pogled.png>
+Package pdftex.def Info: dijagrami/cjelokupni_pogled.png  used on input line 50
+1.
+(pdftex.def)             Requested size: 441.44144pt x 409.52274pt.
+
+Overfull \hbox (5.83064pt too wide) in paragraph at lines 501--503
+ [][] 
+ []
+
+<dijagrami/funkcionalnosti_korisnika.png, id=340, 1100.61188pt x 994.46532pt>
+File: dijagrami/funkcionalnosti_korisnika.png Graphic file (type png)
+<use dijagrami/funkcionalnosti_korisnika.png>
+Package pdftex.def Info: dijagrami/funkcionalnosti_korisnika.png  used on input
+ line 509.
+(pdftex.def)             Requested size: 440.23695pt x 397.77908pt.
+
+Overfull \hbox (4.62616pt too wide) in paragraph at lines 509--511
+ [][] 
+ []
+
+[18pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.514 				
+           <./dijagrami/cjelokupni_pogled.png>]
+<dijagrami/funkcionalnosti_tvrtke.png, id=350, 777.65532pt x 700.11563pt>
+File: dijagrami/funkcionalnosti_tvrtke.png Graphic file (type png)
+<use dijagrami/funkcionalnosti_tvrtke.png>
+Package pdftex.def Info: dijagrami/funkcionalnosti_tvrtke.png  used on input li
+ne 517.
+(pdftex.def)             Requested size: 427.71175pt x 385.06479pt.
+ [19pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.522 				
+           <./dijagrami/funkcionalnosti_korisnika.png>]
+<dijagrami/funkcionalnosti_admina.png, id=358, 846.16125pt x 776.9025pt>
+File: dijagrami/funkcionalnosti_admina.png Graphic file (type png)
+<use dijagrami/funkcionalnosti_admina.png>
+Package pdftex.def Info: dijagrami/funkcionalnosti_admina.png  used on input li
+ne 525.
+(pdftex.def)             Requested size: 423.07959pt x 388.45029pt.
+ [20pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.530 				\eject
+                		 <./dijagrami/funkcionalnosti_tvrtke.png>] [21pdfTeX warning 
+(ext4): destination with the same identifier (name{figure.3.4}) has been alread
+y used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.530 				\eject
+                		 <./dijagrami/funkcionalnosti_admina.png>]
+<dijagrami/Sekvencijski dijagram - Registracija.png, id=373, 1036.62282pt x 996
+.72375pt>
+File: dijagrami/Sekvencijski dijagram - Registracija.png Graphic file (type png
+)
+<use dijagrami/Sekvencijski dijagram - Registracija.png>
+Package pdftex.def Info: dijagrami/Sekvencijski dijagram - Registracija.png  us
+ed on input line 540.
+(pdftex.def)             Requested size: 518.31015pt x 498.36066pt.
+
+Overfull \hbox (82.69936pt too wide) in paragraph at lines 540--542
+ [][] 
+ []
+
+[22] [23pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.3.5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.546 				\newpage
+                   <./dijagrami/Sekvencijski dijagram - Registracija.png>]
+<dijagrami/Sekvencijski dijagram -brisanje aktivnih rezervacija.png, id=386, 79
+9.48688pt x 705.38531pt>
+File: dijagrami/Sekvencijski dijagram -brisanje aktivnih rezervacija.png Graphi
+c file (type png)
+<use dijagrami/Sekvencijski dijagram -brisanje aktivnih rezervacija.png>
+Package pdftex.def Info: dijagrami/Sekvencijski dijagram -brisanje aktivnih rez
+ervacija.png  used on input line 552.
+(pdftex.def)             Requested size: 399.74246pt x 352.69179pt.
+
+[24pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.558 				\newpage
+                   <./dijagrami/Sekvencijski dijagram -brisanje aktivnih rezerv
+acija.png>]
+<dijagrami/sekvencijski dijagram - prijava parkirališne površine.png, id=395,
+ 1106.63437pt x 685.05937pt>
+File: dijagrami/sekvencijski dijagram - prijava parkirališne površine.png Gra
+phic file (type png)
+<use dijagrami/sekvencijski dijagram - prijava parkirališne površine.png>
+Package pdftex.def Info: dijagrami/sekvencijski dijagram - prijava parkirališn
+e površine.png  used on input line 563.
+(pdftex.def)             Requested size: 442.6459pt x 274.01889pt.
+
+Overfull \hbox (7.03511pt too wide) in paragraph at lines 563--565
+ [][] 
+ []
+
+[25pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.569 				\newpage
+                   <./dijagrami/sekvencijski dijagram - prijava parkirališne p
+ovršine.png>]
+<dijagrami/Sekvencijski dijagram - brisanje vozača.png, id=403, 832.61063pt x 
+552.56438pt>
+File: dijagrami/Sekvencijski dijagram - brisanje vozača.png Graphic file (type
+ png)
+<use dijagrami/Sekvencijski dijagram - brisanje vozača.png>
+Package pdftex.def Info: dijagrami/Sekvencijski dijagram - brisanje vozača.png
+  used on input line 575.
+(pdftex.def)             Requested size: 416.30429pt x 276.28151pt.
+ [26pdfTeX warning (ext4): destination with the same identifier (name{figure.3.
+8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.581 				\eject
+                 <./dijagrami/Sekvencijski dijagram - brisanje vozača.png>])
+[27]
+\openout2 = `Arhitektura.aux'.
+
+ (Arhitektura.tex
+Poglavlje 4.
+<dijagrami/dijagram_razmjestaja.png, id=416, 1120.185pt x 487.8225pt>
+File: dijagrami/dijagram_razmjestaja.png Graphic file (type png)
+<use dijagrami/dijagram_razmjestaja.png>
+Package pdftex.def Info: dijagrami/dijagram_razmjestaja.png  used on input line
+ 12.
+(pdftex.def)             Requested size: 448.06606pt x 195.12553pt.
+
+Overfull \hbox (12.45526pt too wide) in paragraph at lines 12--14
+ [][] 
+ []
+
+[28
+
+
+
+
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) 
+has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.25 	
+       <./dijagrami/dijagram_razmjestaja.png>] [29] [30]
+Overfull \hbox (3.87679pt too wide) in paragraph at lines 151--151
+[]\OT1/jkp/m/n/12 TIMESTAMP|  
+ []
+
+
+Overfull \hbox (3.87679pt too wide) in paragraph at lines 151--151
+[]\OT1/jkp/m/n/12 TIMESTAMP|  
+ []
+
+[31]
+Overfull \hbox (3.87679pt too wide) in paragraph at lines 220--220
+[]\OT1/jkp/m/n/12 TIMESTAMP|  
+ []
+
+[32]
+<dijagrami/ParkirajMeERModel.png, id=451, 1180.41pt x 978.65625pt>
+File: dijagrami/ParkirajMeERModel.png Graphic file (type png)
+<use dijagrami/ParkirajMeERModel.png>
+Package pdftex.def Info: dijagrami/ParkirajMeERModel.png  used on input line 22
+6.
+(pdftex.def)             Requested size: 472.15564pt x 391.45557pt.
+
+Overfull \hbox (36.54485pt too wide) in paragraph at lines 226--228
+ [][] 
+ []
+
+<dijagrami/ParkirajMeRelShema.png, id=452, 537.00626pt x 373.395pt>
+File: dijagrami/ParkirajMeRelShema.png Graphic file (type png)
+<use dijagrami/ParkirajMeRelShema.png>
+Package pdftex.def Info: dijagrami/ParkirajMeRelShema.png  used on input line 2
+35.
+(pdftex.def)             Requested size: 429.60559pt x 298.7164pt.
+[33pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.240 
+       <./dijagrami/ParkirajMeERModel.png>] [34pdfTeX warning (ext4): destinati
+on with the same identifier (name{figure.4.3}) has been already used, duplicate
+ ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.244 			\eject
+                <./dijagrami/ParkirajMeRelShema.png>]
+<dijagrami/modeli.png, id=470, 1097.60063pt x 554.07pt>
+File: dijagrami/modeli.png Graphic file (type png)
+<use dijagrami/modeli.png>
+Package pdftex.def Info: dijagrami/modeli.png  used on input line 264.
+(pdftex.def)             Requested size: 439.03247pt x 221.62407pt.
+
+Overfull \hbox (3.42168pt too wide) in paragraph at lines 264--266
+ [][] 
+ []
+
+[35]
+<dijagrami/pomocne_funkcije.png, id=478, 832.61063pt x 690.32906pt>
+File: dijagrami/pomocne_funkcije.png Graphic file (type png)
+<use dijagrami/pomocne_funkcije.png>
+Package pdftex.def Info: dijagrami/pomocne_funkcije.png  used on input line 275
+.
+(pdftex.def)             Requested size: 457.93726pt x 379.68216pt.
+
+Overfull \hbox (22.32646pt too wide) in paragraph at lines 275--277
+ [][] 
+ []
+
+[36pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.280 		
+         <./dijagrami/modeli.png>]
+<dijagrami/ruteri.png, id=488, 651.93562pt x 551.05875pt>
+File: dijagrami/ruteri.png Graphic file (type png)
+<use dijagrami/ruteri.png>
+Package pdftex.def Info: dijagrami/ruteri.png  used on input line 287.
+(pdftex.def)             Requested size: 358.56569pt x 303.08324pt.
+ [37pdfTeX warning (ext4): destination with the same identifier (name{figure.4.
+5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.292 												
+                   <./dijagrami/pomocne_funkcije.png>] [38pdfTeX warning (ext4)
+: destination with the same identifier (name{figure.4.6}) has been already used
+, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.293 			\eject
+                <./dijagrami/ruteri.png>]
+<dijagrami/dijagram stanja.png, id=504, 1405.25pt x 752.8125pt>
+File: dijagrami/dijagram stanja.png Graphic file (type png)
+<use dijagrami/dijagram stanja.png>
+Package pdftex.def Info: dijagrami/dijagram stanja.png  used on input line 301.
+
+(pdftex.def)             Requested size: 491.84488pt x 263.48831pt.
+
+Overfull \hbox (56.23409pt too wide) in paragraph at lines 301--303
+ [][] 
+ []
+
+[39pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.307 			\eject
+                <./dijagrami/dijagram stanja.png>]
+<dijagrami/dijagram aktivnosti.png, id=512, 1278.7775pt x 1538.74875pt>
+File: dijagrami/dijagram aktivnosti.png Graphic file (type png)
+<use dijagrami/dijagram aktivnosti.png>
+Package pdftex.def Info: dijagrami/dijagram aktivnosti.png  used on input line 
+315.
+(pdftex.def)             Requested size: 447.57883pt x 538.57014pt.
+
+Overfull \hbox (11.96803pt too wide) in paragraph at lines 315--317
+ [][] 
+ []
+
+[40] [41pdfTeX warning (ext4): destination with the same identifier (name{figur
+e.4.8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.321 			\eject
+                <./dijagrami/dijagram aktivnosti.png>]
+<dijagrami/Component Diagram0.png, id=525, 925.20656pt x 612.78937pt>
+File: dijagrami/Component Diagram0.png Graphic file (type png)
+<use dijagrami/Component Diagram0.png>
+Package pdftex.def Info: dijagrami/Component Diagram0.png  used on input line 3
+28.
+(pdftex.def)             Requested size: 508.86517pt x 337.03519pt.
+
+Overfull \hbox (73.25438pt too wide) in paragraph at lines 328--330
+ [][] 
+ []
+
+) [42pdfTeX warning (ext4): destination with the same identifier (name{figure.4
+.9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.162 	\include{Arhitektura}
+                             <./dijagrami/Component Diagram0.png>]
+\openout2 = `Implementacija.aux'.
+
+
+(Implementacija.tex
+Poglavlje 5.
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 1.
+
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 1.
+
+[43
+
+
+
+
+] [44]
+Overfull \hbox (12.86086pt too wide) in paragraph at lines 47--48
+[][][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (12.86086pt too wide) in paragraph at lines 52--53
+[][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[45pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.87 				
+         ]
+Overfull \hbox (7.05737pt too wide) in paragraph at lines 123--124
+[][][][][][][][][][][][][][][][][][][]  
+ []
+
+[46pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.137 				
+          pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.5.3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.137 				
+          ]
+Overfull \hbox (7.05737pt too wide) in paragraph at lines 151--152
+[][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (7.05737pt too wide) in paragraph at lines 159--160
+[][][][][][][][][][][][][][][][][][][]  
+ []
+
+
+Overfull \hbox (7.05737pt too wide) in paragraph at lines 170--171
+[][][][][][][][][][][][][][][][][][][]  
+ []
+
+[47pdfTeX warning (ext4): destination with the same identifier (name{figure.5.4
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.183 				
+          ]
+<slike/test_unit_testsOK.jpg, id=660, 1075.01625pt x 570.13pt>
+File: slike/test_unit_testsOK.jpg Graphic file (type jpg)
+<use slike/test_unit_testsOK.jpg>
+Package pdftex.def Info: slike/test_unit_testsOK.jpg  used on input line 186.
+(pdftex.def)             Requested size: 429.99889pt x 228.04796pt.
+ [48pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+5}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.191 	
+       ]
+<slike/test_unit_kriviTest.png, id=704, 684.30656pt x 297.36093pt>
+File: slike/test_unit_kriviTest.png Graphic file (type png)
+<use slike/test_unit_kriviTest.png>
+Package pdftex.def Info: slike/test_unit_kriviTest.png  used on input line 194.
+
+(pdftex.def)             Requested size: 410.5871pt x 178.41792pt.
+<slike/test_unit_testNeOK.jpg, id=705, 1073.00874pt x 997.7275pt>
+File: slike/test_unit_testNeOK.jpg Graphic file (type jpg)
+<use slike/test_unit_testNeOK.jpg>
+Package pdftex.def Info: slike/test_unit_testNeOK.jpg  used on input line 203.
+(pdftex.def)             Requested size: 429.19589pt x 399.08392pt.
+ [49pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+6}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.208 				
+          pdfTeX warning (ext4): destination with the same identifier (name{fig
+ure.5.7}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.208 				
+           <./slike/test_unit_testsOK.jpg> <./slike/test_unit_kriviTest.png>]
+[50pdfTeX warning (ext4): destination with the same identifier (name{figure.5.8
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.215 			
+          <./slike/test_unit_testNeOK.jpg>]
+<slike/html_id.png, id=720, 769.37437pt x 251.43938pt>
+File: slike/html_id.png Graphic file (type png)
+<use slike/html_id.png>
+Package pdftex.def Info: slike/html_id.png  used on input line 221.
+(pdftex.def)             Requested size: 461.62819pt x 150.86478pt.
+
+Overfull \hbox (26.0174pt too wide) in paragraph at lines 221--223
+ [][] 
+ []
+
+[51pdfTeX warning (ext4): destination with the same identifier (name{figure.5.9
+}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.254 		
+         <./slike/html_id.png>] [52pdfTeX warning (ext4): destination with the 
+same identifier (name{figure.5.10}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.306 
+      ] [53pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.11}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.324 			\eject
+               ] [54pdfTeX warning (ext4): destination with the same identifier
+ (name{figure.5.12}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.324 			\eject
+               ]
+Overfull \hbox (4.46782pt too wide) in paragraph at lines 384--385
+[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][]  
+ []
+
+[55pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+3}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.403 
+      ] [56pdfTeX warning (ext4): destination with the same identifier (name{fi
+gure.5.14}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.485 			
+         pdfTeX warning (ext4): destination with the same identifier (name{figu
+re.5.15}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.485 			
+         ] [57pdfTeX warning (ext4): destination with the same identifier (name
+{figure.5.16}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.512 			
+         ] [58pdfTeX warning (ext4): destination with the same identifier (name
+{figure.5.17}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.570 			
+         ]
+Overfull \vbox (6.74496pt too high) has occurred while \output is active []
+
+
+[59pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+8}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.570 			
+         ]
+<slike/test_sistem_rezultat.png, id=1024, 770.88pt x 310.15875pt>
+File: slike/test_sistem_rezultat.png Graphic file (type png)
+<use slike/test_sistem_rezultat.png>
+Package pdftex.def Info: slike/test_sistem_rezultat.png  used on input line 573
+.
+(pdftex.def)             Requested size: 462.53157pt x 186.09668pt.
+
+Overfull \hbox (26.92078pt too wide) in paragraph at lines 573--575
+ [][] 
+ []
+
+<slike/test_sistem_failedTest.png, id=1025, 740.7675pt x 575.14874pt>
+File: slike/test_sistem_failedTest.png Graphic file (type png)
+<use slike/test_sistem_failedTest.png>
+Package pdftex.def Info: slike/test_sistem_failedTest.png  used on input line 5
+81.
+(pdftex.def)             Requested size: 444.46393pt x 345.0919pt.
+
+Overfull \hbox (8.85313pt too wide) in paragraph at lines 581--583
+ [][] 
+ []
+
+[60pdfTeX warning (ext4): destination with the same identifier (name{figure.5.1
+9}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.587 			\eject
+               pdfTeX warning (ext4): destination with the same identifier (nam
+e{figure.5.20}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.587 			\eject
+                <./slike/test_sistem_rezultat.png> <./slike/test_sistem_failedT
+est.png>]
+File: dijagrami/dijagram_razmjestaja.png Graphic file (type png)
+<use dijagrami/dijagram_razmjestaja.png>
+Package pdftex.def Info: dijagrami/dijagram_razmjestaja.png  used on input line
+ 595.
+(pdftex.def)             Requested size: 504.0786pt x 219.5181pt.
+
+Overfull \hbox (68.4678pt too wide) in paragraph at lines 595--597
+ [][] 
+ []
+
+[61pdfTeX warning (ext4): destination with the same identifier (name{figure.5.2
+1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.601 			\eject
+               ]
+<slike/heroku_s1.png, id=1042, 481.8pt x 253.69781pt>
+File: slike/heroku_s1.png Graphic file (type png)
+<use slike/heroku_s1.png>
+Package pdftex.def Info: slike/heroku_s1.png  used on input line 628.
+(pdftex.def)             Requested size: 385.4405pt x 202.95851pt.
+<slike/heroku_s2.png, id=1043, 380.92313pt x 240.14719pt>
+File: slike/heroku_s2.png Graphic file (type png)
+<use slike/heroku_s2.png>
+Package pdftex.def Info: slike/heroku_s2.png  used on input line 636.
+(pdftex.def)             Requested size: 304.73889pt x 192.11798pt.
+ [62pdfTeX warning (ext4): destination with the same identifier (name{figure.5.
+22}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.641 			
+          <./slike/heroku_s1.png>] [63pdfTeX warning (ext4): destination with t
+he same identifier (name{figure.5.23}) has been already used, duplicate ignored
+
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  
+l.642 			\eject
+                <./slike/heroku_s2.png>])
+\openout2 = `Zakljucak.aux'.
+
+ (Zakljucak.tex
+Poglavlje 6.
+
+Package hyperref Warning: Composite letter `\textasciicaron+c'
+(hyperref)                not defined in PD1 encoding,
+(hyperref)                removing `\textasciicaron' on input line 1.
+
+[64
+
+
+
+
+] [65])
+\openout2 = `Literatura.aux'.
+
+ (Literatura.tex) [66
+
+
+
+
+] (PROGI_ProjektnaDokumentacija_v6.lof [67
+
+
+
+])
+\tf@lof=\write5
+\openout5 = `PROGI_ProjektnaDokumentacija_v6.lof'.
+
+
+[68]
+\openout2 = `Dodatak.aux'.
+
+ (Dodatak.tex) 
+AED: lastpage setting LastPage
+(PROGI_ProjektnaDokumentacija_v6.aux (Dnevnik_promjena_dokumentacije.aux)
+(Opis_projektnog_zadatka.aux) (Specifikacija_programske_potpore.aux)
+(Arhitektura.aux) (Implementacija.aux) (Zakljucak.aux) (Literatura.aux)
+(Dodatak.aux))
+Package rerunfilecheck Info: File `PROGI_ProjektnaDokumentacija_v6.out' has not
+ changed.
+(rerunfilecheck)             Checksum: ABF5950DD47D92E3978028F219F71FA0;1680.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 14835 strings out of 480236
+ 212150 string characters out of 2890442
+ 620106 words of memory out of 3000000
+ 30381 multiletter control sequences out of 15000+200000
+ 587381 words of font info for 143 fonts, out of 3000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 83i,13n,88p,929b,1273s stack positions out of 5000i,500n,10000p,200000b,50000s
+pdfTeX warning (dest): name{Hfootnote.23} has been referenced but does not ex
+ist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.22} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.21} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.20} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.12} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.11} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exis
+t, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.8} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.6} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.5} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.3} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist
+, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.1} has been referenced but does not exist
+, replaced by a fixed one
+
+{C:/Program Files/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Program Files/MiKTeX/f
+onts/type1/public/kpfonts/jkpbit8a.pfb><C:/Program Files/MiKTeX/fonts/type1/pub
+lic/kpfonts/jkpbn8a.pfb><C:/Program Files/MiKTeX/fonts/type1/public/kpfonts/jkp
+mit8a.pfb><C:/Program Files/MiKTeX/fonts/type1/public/kpfonts/jkpmn8a.pfb><C:/P
+rogram Files/MiKTeX/fonts/type1/public/kpfonts/jkpttbn8a.pfb><C:/Program Files/
+MiKTeX/fonts/type1/public/kpfonts/jkpttmn8a.pfb>
+Output written on PROGI_ProjektnaDokumentacija_v6.pdf (69 pages, 2325196 bytes)
+.
+PDF statistics:
+ 1292 PDF objects out of 1440 (max. 8388607)
+ 615 named destinations out of 1000 (max. 500000)
+ 336 words of extra memory for PDF output out of 10000 (max. 10000000)
+

@@ -1,0 +1,16 @@
+1. izmjenit UCove da nemaju pregled rezervacija i registracija nego brisanje VUICA 
+1.1 izmjenit pripadajuce dijagrame radi toga ERCEG
+
+2.izmjenit dijagram razreda MARUSIC
+
+3. dijagram stanja promjenit fail i success stranica na hrvatski jezik FABIJANIC 
+
+4. dodat dijagram komponenti ZVONE 
+
+5. napisati 5.2 poglavlje ispitivanje programskog rjesenja
+
+6. napravit dijagram razmjestaja ERCEG
+
+7. napisati 5.4 pustanje u pogon VALJDA DANIJEL OVO TREBA???
+
+8. napisati zakljucak

@@ -1,0 +1,54 @@
+/* micanje originala */
+.switch {
+    position: absolute;
+    left: -10000px;
+    top: auto;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+  }
+  
+/* izgled novog */
+.switch ~ .switch__designer {
+    width: 1.5rem;
+    height: 1rem;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.switch ~ .switch__designer::before {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    width: 100%;
+    height: 100%;
+    border-radius: 0.5rem;
+    background: #dbdbdb;
+}
+
+.switch ~ .switch__designer::after {
+    content: '';
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    width: 0.75rem;
+    height: 0.75rem;
+    margin: 0.125rem;
+    border-radius: 50%;
+    background: #ffffff;
+}
+
+.switch:checked ~ .switch__designer::before {
+    background: green;
+}
+
+.switch:checked ~ .switch__designer::after {
+    left: auto;
+    right: 0;
+}
+  

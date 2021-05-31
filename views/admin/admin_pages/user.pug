@@ -1,0 +1,47 @@
+doctype html
+html(lang='hr')
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+
+    link(rel='stylesheet', type='text/css', href='./../styles/admin/admin.css')
+
+    script.
+      async function obrisi(korisnickoime) {
+          await fetch('/admin/obrisikorisnika/' + korisnickoime)
+          location.reload();
+      }
+
+  body
+    .container
+      h1
+        | Popis Vozača:
+      hr
+      br
+      if err !== undefined
+          .msgError Error: #{err}
+      table#users
+        tr
+          th Korisnicko Ime
+          th Ime
+          th Prezime
+          th OIB
+          th Email
+          th
+
+        each vozac in vozaci
+          .container
+              tr
+                td= vozac.korisnickoimevozac
+                td= vozac.imevozac
+                td= vozac.prezimevozac
+                td= vozac.oibvozac
+                td= vozac.emailvozac
+                td
+                  form(action=`uredikorisnika/${vozac.korisnickoimevozac}`)
+                    input(type='submit' value='Uredi' style='float:left')
+                  input(type='button' value='Obriši' style='float:left' onClick='obrisi(\'' + vozac.korisnickoimevozac + '\');')
+
+      form(action='./')
+        input(type='submit' value='Nazad' style='width:15%; float:right; margin:30px 0px')

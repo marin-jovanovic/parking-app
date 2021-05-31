@@ -1,0 +1,61 @@
+Dnevnik sastajanja
+
+1. sastanak
+	- Datum: 12.10.2020.
+	- Prisustovali: svi članovi
+	- Tema: sastanak s asistenticom
+
+2. sastanak
+	- Datum: 8.10.2020.
+	- Prisustovali: svi članovi
+	- Tema: razrađivanje teme i rješavanje osnovnih funkcionalnosti
+
+3. sastanak
+	- Datum: 19.10.2020.
+	- Prisustovali: svi članovi
+	- Tema: sastanak s asistenticom i diskutiranje o dosadašnjem radu
+
+4. sastanak
+	- Datum: 20.10.2020.
+	- Prisustovali: svi članovi
+	- Teme: grupiranje rada što su članovi pojedinačno radili i podjela novog posla
+	
+5. sastanak
+	- Datum: 26.10.2020.
+	- Prisustovali: Jovanović, Fabijanić, Marušić, Erceg
+	- Tema: sastanak s asistenticom
+	
+6. sastanak
+	- Datum: 30.10.2020.
+	- Prisustovali: svi
+	- Tema: raspodjela zadataka za programiranje
+	
+7. sastanak
+	- Datum: 9.11.2020.
+	- Prisustovali: svi
+	- Tema: spajanje isprogramiranog koda
+	
+8. sastanak
+	- Datum: 12.11.2020.
+	- Prisustovali: svi
+	- Tema: spajanje na web server
+	
+9. sastanak
+	- Datum: 6.12.2020.
+	- Prisustovali: svi
+	- Tema: dorađivanje funkcionalnosti
+	
+10. sastanak
+	- Datum: 13.12.2020.
+	- Prisustovali: svi
+	- Tema: dorađivanje funkcionalnosti
+	
+11. sastanak
+	- Datum: 3.1.2021.
+	- Prisustovali: svi
+	- Tema: dovršavanje aplikacije
+	
+12. sastanak
+	- Datum: 12.1.2021.
+	- Prisustovali: svi
+	- Tema: uređivanje dokumentacije

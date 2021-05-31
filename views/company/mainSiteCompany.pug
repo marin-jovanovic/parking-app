@@ -1,0 +1,151 @@
+doctype html
+//
+  TODO
+  na karti prikazati korisnikovu lokaciju
+  izracunati di su najblizi parkinzi
+  kad korisnik klikne na mapu trebaju mu se na desnoj strani pokazat info o tom mjestu
+  KAD SE PREBACUJE U PUG
+  dodat js skripte iz ./scripts/user i ./scripst/global/tab_...
+head
+
+  title Parkiraj Me
+  meta(charset='utf-8')
+  meta(name='viewport' content='width=device-width, initial-scale=1')
+  base(href='/')
+
+  link(rel='stylesheet', href='./styles/main_site_user/main_site_user.css')
+  script.
+    console.log("UNUTAR SCRIPTA")
+    async function ukloniParking(parking) {
+      console.log("PARKING JE " + parking);
+          response = await fetch('/company/ukloniparking/' + parking)
+          if( !response.ok )
+              alert("Error")
+            else
+                location.reload()
+    }
+
+main.center(role='main')
+  .center__title
+    h1 Parkiraj Me
+
+    .name_placeHolder#name_ph
+      h1= user.korisnickoIme
+    //- h1= user.korisnickoIme
+  .center__container
+    .center__maps
+      h3 Ponudite svoje mjesto
+      // The div element for the map
+      #map
+      script(src='https://maps.googleapis.com/maps/api/js?key=AIzaSyDzm5OOeVsAHmmVfHqPtlgz6XjicHRqWlE&callback=initMap&libraries=&v=weekly' defer='')
+    
+    .center__login
+      br
+      //- a(href="/user/user_personal") 
+      input.center__menu__button(type='button' value='OSOBNI PODATCI' onclick='formPersonalDataToggle();')
+      if errors1 !== undefined
+            ul
+              each val in errors1
+                if val.email !== undefined
+                  li= val.email
+                if val.password1 !== undefined
+                  li= val.password1
+                if val.oib !== undefined
+                  li= val.oib
+                if val.companyname !== undefined
+                  li= val.companyname
+                if val.address !== undefined
+                  li= val.address
+      form#formPersonalData(name='formPersonalData' action='/company/tvrtkapodatci' method='post')
+        table.center__menu__table(border='1' cellspacing='5' cellpadding='5' align='center' width='100%')
+          tr
+            td
+              input(type='text' id = 17 name='oib' placeholder='OIB tvrtke' value=user.OIBkorisnik required)
+          tr
+            td
+              input(type='text' id = 18 name='companyname' placeholder='Puno Ime tvrtke' value=user.imeTvrtka required)
+          tr
+            td
+              input(type='text' id = 19 name='address' placeholder='Adresa sjedišta' value=user.adresaTvrtka required)
+          tr
+            td
+              input(type='text' id = 20 name='email' placeholder='Adresa e-pošte' value=user.emailKorisnik required)
+          tr
+            td
+              input(type='password' id = 21 name='password1' placeholder='Lozinka' required)
+          tr
+            td
+              input(type='password' id = 22 name='password2' placeholder='Ponovni upis lozinke' required)
+          tr
+            td
+              input.center__menu__button(type='submit' id = 23 required)
+        br
+
+      input.center__menu__button(type='button' value='DODAJ PARKIRALIŠNU POVRŠINU' onclick='formAddParkingSpaceToggle();')
+
+      form#formAddParkingSpace(name='formAddParkingSpace' action='/company/dodaj_parkiralisnu_p' method='post')
+        if err1 !== undefined
+          p= err1
+        .container
+          #placeholder_0.element
+
+        .container
+          #placeholder_1.element
+
+        input(type="button"  value="restartaj marker" onclick="restart_location();")
+        br
+        input(type="text" name='address' placeholder="upisi adresu" required)
+        br
+        input(type="text" name='pp_count' placeholder="upisi br mjesta" required)
+        br
+        input(type="text" name='cijenaposatu' placeholder="upisi cijenu" required)
+        br
+        input.save__button(type='submit' value='spremi lokaciju' onclick='save_location_info();')
+
+        .container
+          #placeholder_2.element
+
+      input.center__menu__button(type='button' value='UPRAVLJAJ PARKIRALIŠNIM POVRŠINAMA' onclick='formManageParkingSpacesToggle();')
+      
+      form#formManageParkingSpaces(name='formManageParkingSpaces')
+        table.center__menu__table(border='1' cellspacing='5' cellpadding='5' align='center' width='100%')
+          
+          each val in parkinzi
+            tr
+              td= val.adresalokacija + " " + parseFloat(val.geosirina).toFixed(4) + " " + parseFloat(val.geoduzina).toFixed(4)
+                input(type='button' value='obrisi' onClick='ukloniParking(\'' + val.idparking + '\');')
+      .center__menu__cell
+            form#logoutForm(name='logoutForm' action='/logout' method='get')
+                tr
+                  td
+                    input.center__menu__button(value="LOGOUT" type='submit' id = 23 required)
+
+
+
+
+//- nav#footer
+//-   ul.navigation__list
+//-     li.navigation__list__elem
+//-       | informacije
+//-     li.navigation__list__elem
+//-       | pomo&cacute;
+//-     li.navigation__list__elem
+//-       | privatnost
+//-     li.navigation__list__elem
+//-       | uvjeti
+//-     li.navigation__list__elem
+//-       | jezik
+
+//- hr
+//- temp linkovi
+//- br
+//- a(href="/user/user_personal") osobni podatci
+//- br
+//- temp ostali linkovi
+  
+
+script(src='./scripts/companies/on_load_functions.js')
+script(src='./scripts/global/tab_name_changer.js')
+script(src='https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js')
+script(src='./scripts/global/display_locations.js')
+script(src='./scripts/companies/drop_down_activators.js')

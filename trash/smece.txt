@@ -1,0 +1,49 @@
+const express = require('express');
+const NodeGeocoder = require('node-geocoder');
+const router = express.Router();
+const db = require('../database');
+const flatpickr = require("flatpickr");
+
+
+
+ 
+const options = {
+  provider: 'mapquest',
+ 
+  // Optional depending on the providers
+  apiKey: 'GaChD0TaZeX2GSJceNxCou3TuUSkiGeH', // for Mapquest, OpenCage, Google Premier
+  formatter: null // 'gpx', 'string', ...
+};
+
+
+ 
+const geocoder = NodeGeocoder(options);
+
+router.get('/', async function (req, res, next) {
+    let loc;
+    try{
+        loc = await geocoder.geocode('put simunova 15 zadar');
+        console.log(loc);
+    }catch(err){
+        console.log("EROR " + err)
+    }
+    res.render('home', {
+        title: 'Home',
+        loc: loc[0]
+    });
+});
+
+
+funkcija = async function(){
+    const sql = `select * from parking where idparking = $1`;
+    const values =['4']
+    try {
+        const result = await db.query(sql, values);
+        return result.rows;
+    } catch (err) {
+        console.log(err);
+        throw err
+    }
+}
+
+module.exports = router;

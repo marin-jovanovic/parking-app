@@ -1,0 +1,2 @@
+-prikaz sustava aplikacije se sastoji od jednog uc dijagrama sa navedenim svim funkcionalnostima
+- dijagram "Sustav aplikacije ParkirajMe" sadrži sve funkcionalnosti navedene u poglavlju "3.1.1 Obrasci uporabe"

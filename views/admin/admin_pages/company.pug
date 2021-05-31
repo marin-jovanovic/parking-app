@@ -1,0 +1,44 @@
+doctype html
+html(lang='hr')
+  head
+    title= title
+    meta(charset='utf-8')
+    meta(name='viewport' content='width=device-width, initial-scale=1')
+    link(rel='stylesheet', type='text/css', href='./../styles/admin/admin.css')
+
+    script.
+      async function obrisi(imetvrtke) {
+          await fetch('/admin/obrisitvrtku/' + imetvrtke)
+          location.reload();
+      }
+
+  body
+    .container
+      h1
+        | Popis Tvrtka:
+      hr
+      br
+      if err !== undefined
+          .msgError Error: #{err}
+      table#users
+        tr
+          th Korisnicko ime
+          th Ime
+          th OIB
+          th Adresa
+          th Email
+          th
+        each tvrtka in tvrtke
+          tr
+            td= tvrtka.korisnickoimetvrtke
+            td= tvrtka.imetvrtka
+            td= tvrtka.oibtvrtka
+            td= tvrtka.adresatvrtka
+            td= tvrtka.emailtvrtka
+            td
+              form(action=`ureditvrtku/${tvrtka.korisnickoimetvrtke}`)
+                input(type='submit' value='Uredi' style='float:left')
+              input(type='button' value='Obriši' style='float:left' onClick='obrisi(\'' + tvrtka.korisnickoimetvrtke + '\');')
+
+      form(action='./')
+        input(type='submit' value='Nazad' style='width:15%; float:right; margin:30px 0px')

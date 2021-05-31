@@ -1,0 +1,187 @@
+%definira klasu dokumenta 
+\documentclass[12pt]{report} 
+
+%prostor izmedu naredbi \documentclass i \begin{document} se zove uvod. U njemu se nalaze naredbe koje se odnose na cijeli dokument
+
+%osnovni LaTex ne može riješiti sve probleme, pa se koriste različiti paketi koji olakšavaju izradu željenog dokumenta
+\usepackage[croatian]{babel} 
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{txfonts}
+\usepackage{mathdots}
+\usepackage{titlesec}
+\usepackage{array}
+\usepackage{tabularx}
+\usepackage{lastpage}
+\usepackage{etoolbox}
+\usepackage{longtable, tabu}
+\usepackage{xcolor, colortbl}
+\usepackage{adjustbox}
+\usepackage{geometry}
+\usepackage[classicReIm]{kpfonts}
+\usepackage{hyperref}
+\usepackage{fancyhdr}
+
+\usepackage{float}
+\usepackage{setspace}
+\restylefloat{table}
+
+
+\patchcmd{\chapter}{\thispagestyle{plain}}{\thispagestyle{fancy}}{}{} %redefiniranje stila stranice u paketu fancyhdr
+
+%oblik naslova poglavlja
+\titleformat{\chapter}{\normalfont\huge\bfseries}{\thechapter.}{20pt}{\Huge}
+\titlespacing{\chapter}{0pt}{0pt}{40pt}
+
+
+\linespread{1.3} %razmak između redaka
+
+\geometry{a4paper, left=1in, top=1in,}  %oblik stranice
+
+\hypersetup{ colorlinks, citecolor=black, filecolor=black, linkcolor=black,	urlcolor=black }   %izgled poveznice
+
+
+%prored smanjen između redaka u nabrajanjima i popisima
+\newenvironment{packed_enum}{
+	\begin{enumerate}
+		\setlength{\itemsep}{0pt}
+		\setlength{\parskip}{0pt}
+		\setlength{\parsep}{0pt}
+	}{\end{enumerate}}
+
+\newenvironment{packed_item}{
+	\begin{itemize}
+		\setlength{\itemsep}{0pt}
+		\setlength{\parskip}{0pt}
+		\setlength{\parsep}{0pt}
+	}{\end{itemize}}
+
+
+%boja za privatni i udaljeni kljuc u tablicama
+\definecolor{LightBlue}{rgb}{0.9,0.9,1}
+\definecolor{LightGreen}{rgb}{0.9,1,0.9}
+
+
+%podesavanje zaglavlja i podnožja
+
+\pagestyle{fancy}
+\lhead{Programsko inženjerstvo}
+%\rhead{$<$Projektni zadatak$>$}
+\rhead{Parkiraj Me}
+%\lfoot{$<$Naziv grupe$>$}
+\lfoot{NDB}
+\cfoot{stranica \thepage/\pageref{LastPage}}
+\rfoot{\today}
+\renewcommand{\headrulewidth}{0.2pt}
+\renewcommand{\footrulewidth}{0.2pt}
+
+\usepackage{listings}
+\usepackage{color}
+
+\definecolor{dkgreen}{rgb}{0,0.6,0}
+\definecolor{gray}{rgb}{0.5,0.5,0.5}
+\definecolor{mauve}{rgb}{0.58,0,0.82}
+
+\lstdefinelanguage{JavaScript}{
+	keywords={typeof, new, true, false, catch, function, return, null, catch, switch, var, if, in, while, do, else, case, break},
+	keywordstyle=\color{blue}\bfseries,
+	ndkeywords={class, export, boolean, throw, implements, import, this},
+	ndkeywordstyle=\color{darkgray}\bfseries,
+	identifierstyle=\color{black},
+	sensitive=false,
+	comment=[l]{//},
+	morecomment=[s]{/*}{*/},
+	commentstyle=\color{purple}\ttfamily,
+	stringstyle=\color{red}\ttfamily,
+	morestring=[b]',
+	morestring=[b]"
+}
+
+\lstset{frame=tb,
+	language=JavaScript,
+	aboveskip=3mm,
+	belowskip=3mm,
+	showstringspaces=false,
+	columns=flexible,
+	basicstyle={\small\ttfamily},
+	numbers=none,
+	numberstyle=\tiny\color{gray},
+	keywordstyle=\color{blue},
+	commentstyle=\color{dkgreen},
+	stringstyle=\color{mauve},
+	breaklines=true,
+	breakatwhitespace=true,
+	tabsize=3
+}
+
+\tolerance=1
+\emergencystretch=\maxdimen
+\hyphenpenalty=10000
+\hbadness=10000
+
+
+\begin{document} 
+	
+	
+	
+	\begin{titlepage}
+		\begin{center}
+			\vspace*{\stretch{1.0}} %u kombinaciji s ostalim \vspace naredbama definira razmak između redaka teksta
+			\LARGE Programsko inženjerstvo\\
+			\large Ak. god. 2020./2021.\\
+			
+			\vspace*{\stretch{3.0}}
+			
+			\huge Parkiraj Me\\
+			\Large Dokumentacija, Rev. 1.0\\
+			
+			\vspace*{\stretch{12.0}}
+			\normalsize
+			Grupa: NDB\\
+			Voditelj: Daniel Ranogajec\\
+			
+			
+			\vspace*{\stretch{1.0}}
+			%Datum predaje: \textit{$<$13$>$. $<$11$>$. $<$2020$>$.}\\
+			Datum predaje: \textit{14. 1. 2021.}\\
+			\vspace*{\stretch{4.0}}
+			
+			Nastavnik: Nikolina Frid\\
+		
+		\end{center}
+
+	
+	\end{titlepage}
+
+	
+	\tableofcontents
+
+	\include{Dnevnik_promjena_dokumentacije}
+	\include{Opis_projektnog_zadatka}
+	\include{Specifikacija_programske_potpore}
+	\include{Arhitektura}
+	\include{Implementacija}
+	\include{Zakljucak}
+	\include{Literatura}
+	
+	
+	\begingroup
+	\renewcommand*\listfigurename{Indeks slika i dijagrama}
+	%\renewcommand*\listtablename{Indeks tablica}
+	%\let\clearpage\relax
+	\listoffigures
+	%\vspace{10mm}
+	%\listoftables
+	\endgroup
+	\addcontentsline{toc}{chapter}{Indeks slika i dijagrama}
+
+
+	
+	\eject 
+		
+	\include{Dodatak}
+
+
+\end{document} %naredbe i tekst nakon ove naredbe ne ulaze u izgrađen dokument 
+
+

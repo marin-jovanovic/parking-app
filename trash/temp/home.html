@@ -1,0 +1,269 @@
+<!-- 
+TODO
+gumb prijava i registracija iste velicine
+opcija tvrtke i korisnika
+-->
+
+<!DOCTYPE html>
+<html lang="hr">
+
+    <head>
+
+        <title>Parkiraj Me</title>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <link rel="stylesheet" href="public/styles/index/index_center.css">
+        <link rel="stylesheet" href="public/styles/index/index_footer.css">
+        <link rel="stylesheet" href="public/styles/global/switch.css">
+    
+        <style>
+
+            *:not(html) {
+            /* * { */
+                border: 3px solid green;
+                margin: 1px;
+            }
+
+            
+            .main {
+                width: 60%;
+
+                margin: auto;
+
+                margin-top: 25px;
+                margin-bottom: 25px;
+
+                /* width: 100%; */
+                /* height: 100%; */
+            }
+
+            .main__title {
+
+                text-align: center;
+
+            }
+
+            .main__panel {
+                display: flex;
+            }
+
+                .left__panel {
+                    flex: 0 0 60%;
+                }
+
+                .right__panel {
+                    flex: 1;
+                }
+
+                    .right__panel__login {
+                        
+                    }    
+
+                        /* width: 100%; */
+                        /* width: 100px; */
+                        /* width: 100%; */
+                        /* position: relative; */
+                        /* left: calc(50% - 50px);                    */
+                    
+                    input, form, td, tr, label, span, table {
+                        width: 100%;
+                    }
+
+                  
+
+            /* .center {
+                margin: auto;
+                margin-top: 25px;
+                width: 90%;
+                padding: 10px;
+            }  */
+
+                /* .center__title {
+                    margin: auto;
+                    padding: 10px;
+                    text-align: center;
+                }
+
+                .center__container {
+                    display: flex;
+
+                }
+
+                .center__maps {
+                    flex: 0 0 60%;
+
+                }
+
+                    #map {
+                    height: 400px;
+                    width: 100%;
+                    }
+                        
+                .center__login {
+                    flex: 1;
+
+
+                } */
+
+                    /* .center__menu__button {
+                        background-color: green; 
+                        border: none;
+                        color: white;
+                        padding: 16px 32px;
+                        text-align: center;
+                        text-decoration: none;
+                        display: inline-block;
+                        font-size: 16px;
+                        margin: 4px 2px;
+                        
+                        transition-duration: 0.4s;
+                        cursor: pointer;
+                        border-radius: 8px;
+
+                        width: 100%;
+                        table-layout: fixed;
+                        border-collapse: collapse;
+                    } */
+        
+        
+        </style>
+    
+    </head>
+
+
+    <body>
+    body
+
+    <div class="main">
+        main
+
+        <div class="main__title">
+            main__title
+
+            <h1>
+
+                Parkiraj Me
+            
+            </h1>
+
+        </div>
+
+        <div class="main__panel">
+
+            main__panel
+
+            <div class="left__panel">
+                left__panel
+
+                <div class="left__panel__title">
+                    <h3>
+                        Pronašli smo mjesto za tebe!
+                    </h3>
+                </div>
+
+              
+
+                <div class="left__panel__map">
+                    left__panel__map
+                </div>
+
+            </div>
+
+            <div class="right__panel">
+                right__panel
+
+                <div class="right__panel__login">
+                   
+                    <input type="button" class="center__menu__button" value="P R I J A V A" onclick="openFormLogin();" />                    
+                    
+            
+                        <form name="loginForm" id="loginForm" action="form-validation-advanced.html" method="get" onsubmit="return formValidation();">
+                           
+                            <table class="center__login__table" border="1" cellspacing="5" cellpadding="5" align="center" width="100%">
+                            
+                                <tr>
+                                    <td>
+                                        <input type="text" name="username" value="Broj telefona, korisničko ime ili e-pošta" size="32">
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <td>
+                                        <input type="text" name="password" value="Lozinka" size="32">
+                                    </td>
+                                </tr>
+        
+                                <tr>
+                                    <td>
+                                        <label>
+                                            <input type="checkbox" class="switch">
+                                            zapamti me
+                                            <span class="switch__designer"></span>
+                                        </label>
+                                    </td>
+                                </tr>
+        
+
+                                <tr>
+                                    <td>
+                                        <form action="/processForm.php">
+                                            <input type="button" class="center__menu__button__small" value="Prijava" onclick="alert('TODO prijava je stisnuta')">
+                                        </form>                                              
+                                    </td>
+                                </tr>
+                        
+                        
+                            </table>
+                         
+                        </form>
+
+                </div>
+
+            </div>
+
+        </div>
+
+
+      
+
+
+    </div>
+
+
+        <nav id="footer"> 
+        footer
+            <!-- <ul class="navigation__list">
+                <li class="navigation__list__elem">
+                    informacije
+                </li>
+
+                <li class="navigation__list__elem">
+                    pomoć
+                </li>
+
+                <li class="navigation__list__elem">
+                    privatnost
+                </li>
+
+                <li class="navigation__list__elem">
+                    uvjeti
+                </li>
+
+                <li class="navigation__list__elem">
+                    jezik
+                </li>
+            </ul> -->
+        </nav>
+        <script src="./scripts/index/on_load_functions.js"></script>
+        <!-- <script src=""></script> -->
+        <script src="./scripts/global/tab_name_changer.js"></script>
+        <script src="./scripts/index/drop_down_activators.js"></script>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+    </body>
+
+</html>
+

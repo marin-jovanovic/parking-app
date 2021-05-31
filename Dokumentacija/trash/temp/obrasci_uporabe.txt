@@ -1,0 +1,38 @@
+DI JE X JE NAPISANO U WORD FAJLU
+
+--dio za korisnika da upravlja svojim accountom
+
+pregled parkinga na mapi X
+registracija X
+prijava u sustav X
+pregled osobnih podataka X
+promjena osobnih podataka X
+registracija auta X
+pregled registriranih auta X
+promjena registriranih auta X
+
+--dio privatne korisnike kad ide rezervirati
+prijedlog top 3 najblizeg slobodnog parking mjesta X
+rezervacija parking mjesta X
+fejk placanje rezervacije X
+pregled aktivnih rezervacija X
+uredjivanje aktivnih rezervacija X
+brisanje aktivnih rezervacija X
+
+--dio za pravne korisnike
+prijava parking objekta X
+pregled prijavljenjih parking objekata X
+uredjivanje parking objekata X
+brisanje parking objekata X
+pregled fejk transakcija //OVU FUNKCIJU BI JA IZBACIA ZAPRAVO
+
+--dio za admine
+pregled privatnih osoba X
+uredjivanje privatnih osoba X
+brisanje privatnih osoba X
+pregled pravnih osoba //u procesu izrade ostatak
+uredjivanje pravnih osoba
+brisanje pravnih osoba
+
+
+

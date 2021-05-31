@@ -1,0 +1,30 @@
+
+.navigation__list {
+    width: 60%;
+    margin: auto;
+    display: flex;
+}
+
+    .navigation__list div {
+        text-align: center;
+    }
+
+    .info {
+        flex: 0 0 20%;
+    }
+
+    .help {
+        flex: 1;
+    }
+
+    .privacy {
+        flex: auto;
+    }
+
+    .terms {
+        flex: auto;
+    }
+
+    .language {
+        flex: auto;
+    }

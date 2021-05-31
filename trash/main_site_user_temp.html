@@ -1,0 +1,124 @@
+<!-- 
+TODO
+na karti prikazati korisnikovu lokaciju
+
+izracunati di su najblizi parkinzi
+
+kad korisnik klikne na mapu trebaju mu se na desnoj strani pokazat info o tom mjestu
+
+KAD SE PREBACUJE U PUG
+dodat js skripte iz ./scripts/user i ./scripst/global/tab_...
+
+-->
+
+<!DOCTYPE html>
+
+<html lang="hr">
+
+<head>
+
+    <title>Parkiraj Me</title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/public/styles/main_site_user/main_site_user.css">
+
+
+</head>
+
+<body>
+
+    <main class="center" role="main">
+    
+        <div class="center__title">
+
+            <h1>Parkiraj Me</h1>
+
+        </div>
+
+        <div class="center__container">
+            
+            <div class="center__maps">
+
+                <h3>Pronašli smo mjesto za tebe!</h3>
+                
+                <!--The div element for the map -->
+                <div id="map"></div>
+                
+                <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzm5OOeVsAHmmVfHqPtlgz6XjicHRqWlE&callback=initMap&libraries=&v=weekly" defer></script>
+                
+                <script src="/public/scripts/users/map_functions.js"></script>
+
+            </div>
+
+            <div class="center__login">
+
+                <br>
+
+                <input type="button" class="center__menu__button" value="OSOBNI PODATCI" onclick="openPersonalData();" />
+
+                <br>
+                <!-- 1. Korisnik odabire opciju za registrirati auto
+                2. Korisnik unosi potrebne podatke
+                3. Korisnik prima obavijest o uspjesnoj registraciji ˇ
+                • Opis mogucih odstupanja: ´
+                2.a Unesena neispravna/vec registrirana registracija ´
+                1. Sustav obavijesti korisnika da nije moguce registrirati auto, te ga ´
+                vraca na stranicu za registraciju automobila ´
+                2. Korisnik mijenja podatka ili odustaje -->
+                
+                <input type="button" class="center__menu__button" value="DODAJ AUTO" onclick="openPersonalData();" />
+    
+                <br>
+
+                <input type="button" class="center__menu__button" value="PREGLEDAJ AUTE" onclick="openPersonalData();" />
+
+                <br>
+
+                <input type="button" class="center__menu__button" value="PROMIJENI AUTE" onclick="openPersonalData();" />
+
+                <br>
+                <input type="button" class="center__menu__button" value="Predlozi parking mjesto" onclick="openPersonalData();" />
+
+                
+
+            </div>
+
+        </div>
+
+    </main>
+    
+    <nav id="footer"> 
+        <ul class="navigation__list">
+            <li class="navigation__list__elem">
+                informacije
+            </li>
+
+            <li class="navigation__list__elem">
+                pomoć
+            </li>
+
+            <li class="navigation__list__elem">
+                privatnost
+            </li>
+
+            <li class="navigation__list__elem">
+                uvjeti
+            </li>
+
+            <li class="navigation__list__elem">
+                jezik
+            </li>
+        </ul>
+    </nav>
+
+    <script src="/public/scripts/users/on_load_functions.js"></script>
+    <script src="/public/scripts/users/personalDataManager.js"></script>
+    <script src="/public/scripts/global/tab_name_changer.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+
+</body>
+
+</html>
+

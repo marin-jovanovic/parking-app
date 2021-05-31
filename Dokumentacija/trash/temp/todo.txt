@@ -1,0 +1,16 @@
+done:
+	obrasci_uporabe.txt
+	Obrasci_uporabe_3.1.1.docx
+	opisSlike.docx
+	PROGI_ProjektnaDokumentacija_v6-converted.docx
+	dijagram_verzija2
+		dodane sve slike
+		premjestene sve slike u "dijagrami"
+	dijagram_primjer.jpg 
+		nista nisam radio s ovim
+	dijagram_verzija1
+		nista nisam radio s ovim
+	dijagram obrasca - prijedlog.docx
+		nista nisam radio s ovim
+todo:
+	

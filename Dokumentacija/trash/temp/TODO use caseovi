@@ -1,0 +1,61 @@
+UC - 7  jel prikazuje osobne podatke korisnika ili registriane automobile
+UC - 10 rjesit opis mogucih odstupanja jer ovo s datumom bas nije zgodno
+
+
+UC1  - Pregled parkinga
+UC1   - Pregled parkirališnih površina
+
+UC2   - Registracija  // korisnik -> korisnik + tvrtka
+
+UC3  - Prijava u sustav
+UC3   - Prijava korisnika u sustav
+
+UC4   - Pregled osobnih podataka // korisnik -> korisnik + tvrtka
+UC5   - Promjena osobnih podataka // korisnik -> korisnik + tvrtka
+
+UC6  - Registracija auta
+UC6   - Registracija automobila
+
+UC7  - Pregled registriranih auta za registrirane korisnike
+UC7   - Pregled registriranih automobila 
+
+UC8  - Promjena registriranih auta za registrirane korisnike
+UC8   - Promjena registriranih automobila
+
+UC9  - Prijedlog najbližih slobodnih parking mjesta
+UC9   - Prijedlog najbližih slobodnih parkirališnih površina
+
+UC10  - Rezervacija parking mjesta
+UC10  - Rezervacija parkirališnog mjesta
+
+UC11  - Naplata rezervacije
+
+UC12  - Pregled aktivnih rezervacija
+
+UC13  - Uređivanje aktivnih rezervacija
+
+UC14  - Brisanje aktivnih rezervacija
+
+UC15  - Prijava parking objekta
+UC15  - Prijava parkirališne površine
+
+UC16  - Pregled prijavljenih parkirališta
+UC16  - Pregled prijavljenih parkirališnih površina
+
+UC17  - Uređivanje parking objekta
+UC17  - Uređivanje parkirališnih površina
+
+UC18  - Brisanje parking objekta
+UC18  - Brisanje parkirališnih površina
+
+UC19  - Pregled korisnika
+
+UC20  - Uređivanje odabranih korisnika
+
+UC21  - Brisanje odabranih korisnika
+
+UC22  - Pregled tvrtki
+
+UC23  - Uređivanje odabranih tvrtki
+
+UC24  - Brisanje odabranih tvrtki
