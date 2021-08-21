@@ -1,3 +1,7 @@
+work in progress
+
+fixme: some bugs were found while testing
+todo: refactoring
 
 HEROKU SERVER:
 https://parkirajme-ndb.herokuapp.com/
