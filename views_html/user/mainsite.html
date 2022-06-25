@@ -1,0 +1,28 @@
+<head>
+    <title>Parkiraj Me</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <base href="/" />
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/pikaday/css/pikaday.css" />
+    <link rel="stylesheet" type="text/css" href="./styles/main_site_user/main_site_user.css" />
+    <script>
+        console.log("UNUTAR SCRIPTA")
+        async function ukloniVozilo(registracija) {
+            console.log("REGISTRACIJA JE " + registracija);
+            response = await fetch('/user/uklonivozilo/' + registracija)
+            if (!response.ok)
+                alert("Error")
+            else
+                window.location.href = window.location.href
+        }
+        async function ukloniRezervaciju(rezervacija) {
+            console.log("REGISTRACIJA JE " + rezervacija);
+            response = await fetch('/user/uklonirezervaciju/' + rezervacija)
+            if (!response.ok)
+                alert("Error")
+            else
+                location.reload()
+        }
+    </script>
+</head>
+
